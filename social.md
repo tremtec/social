@@ -53,7 +53,8 @@ collection of tools self-served by a modular ERP (Social ERP).
 
 - [ ] Groundwork
   - [ ] Set up Phoenix Project w/: Auth, SQLite, tailwindcss + DaisyUI
-    - [ ] Generate phoenix project with `mix phx.new social --live --database sqlite`
+    - [x] Generate phoenix project with `mix phx.new social --live --database sqlite`
+    - [x] Generate auth with `mix phx.gen.auth Accounts User users --binary-id --hashing-lib bcrypt`
     - [ ] Ref: remove user password support (only support magic-link for now)
     - [ ] Customize Phoenix Framework theme (colors defined by UX Design System)
   - [ ] UX Design System definition
