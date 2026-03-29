@@ -62,7 +62,7 @@ collection of tools self-served by a modular ERP (Social ERP).
   - [ ] Set up i18n
     - [ ] Replace all hardcoded texts with gettext
     - [ ] Add translations to `pt-br`
-  - [ ] Set up maestro
+  - [x] Set up maestro
 
 - [ ] Next steps
   - Workflow: Org onboarding
