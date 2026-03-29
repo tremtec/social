@@ -86,6 +86,8 @@ defmodule SocialWeb do
       import Phoenix.HTML
       # Core UI components
       import SocialWeb.CoreComponents
+      # Social-specific UI components
+      import SocialWeb.SocialComponents
 
       # Common modules used in templates
       alias Phoenix.LiveView.JS
