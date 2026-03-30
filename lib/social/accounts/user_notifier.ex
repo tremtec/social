@@ -1,4 +1,6 @@
 defmodule Social.Accounts.UserNotifier do
+  use Gettext, backend: SocialWeb.Gettext
+
   import Swoosh.Email
 
   alias Social.Mailer
@@ -22,17 +24,17 @@ defmodule Social.Accounts.UserNotifier do
   Deliver instructions to update a user email.
   """
   def deliver_update_email_instructions(user, url) do
-    deliver(user.email, "Update email instructions", """
+    deliver(user.email, gettext("Update email instructions"), """
 
     ==============================
 
-    Hi #{user.email},
+    #{gettext("Hi %{email},", email: user.email)}
 
-    You can change your email by visiting the URL below:
+    #{gettext("You can change your email by visiting the URL below:")}
 
     #{url}
 
-    If you didn't request this change, please ignore this.
+    #{gettext("If you didn't request this change, please ignore this.")}
 
     ==============================
     """)
@@ -49,34 +51,34 @@ defmodule Social.Accounts.UserNotifier do
   end
 
   defp deliver_magic_link_instructions(user, url) do
-    deliver(user.email, "Log in instructions", """
+    deliver(user.email, gettext("Log in instructions"), """
 
     ==============================
 
-    Hi #{user.email},
+    #{gettext("Hi %{email},", email: user.email)}
 
-    You can log into your account by visiting the URL below:
+    #{gettext("You can log into your account by visiting the URL below:")}
 
     #{url}
 
-    If you didn't request this email, please ignore this.
+    #{gettext("If you didn't request this email, please ignore this.")}
 
     ==============================
     """)
   end
 
   defp deliver_confirmation_instructions(user, url) do
-    deliver(user.email, "Confirmation instructions", """
+    deliver(user.email, gettext("Confirmation instructions"), """
 
     ==============================
 
-    Hi #{user.email},
+    #{gettext("Hi %{email},", email: user.email)}
 
-    You can confirm your account by visiting the URL below:
+    #{gettext("You can confirm your account by visiting the URL below:")}
 
     #{url}
 
-    If you didn't create an account with us, please ignore this.
+    #{gettext("If you didn't create an account with us, please ignore this.")}
 
     ==============================
     """)

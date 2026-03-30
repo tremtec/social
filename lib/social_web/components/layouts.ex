@@ -4,6 +4,7 @@ defmodule SocialWeb.Layouts do
   used by your application.
   """
   use SocialWeb, :html
+  use Gettext, backend: SocialWeb.Gettext
 
   # Embed all files in layouts/* within this module.
   # The default root.html.heex file contains the HTML
@@ -39,7 +40,7 @@ defmodule SocialWeb.Layouts do
       <div class="flex-1">
         <a href="/" class="flex-1 flex w-fit items-center gap-2">
           <img src={~p"/images/logo.svg"} width="36" />
-          <span class="text-sm font-semibold">Social Tools</span>
+          <span class="text-sm font-semibold">{gettext("Social Tools")}</span>
         </a>
       </div>
       <div class="flex-none">
@@ -53,17 +54,17 @@ defmodule SocialWeb.Layouts do
               {@current_scope.user.email}
             </li>
             <li>
-              <.link href={~p"/users/settings"}>Settings</.link>
+              <.link href={~p"/users/settings"}>{gettext("Settings")}</.link>
             </li>
             <li>
-              <.link href={~p"/users/log-out"} method="delete">Log out</.link>
+              <.link href={~p"/users/log-out"} method="delete">{gettext("Log out")}</.link>
             </li>
           <% else %>
             <li>
-              <.link href={~p"/users/register"}>Register</.link>
+              <.link href={~p"/users/register"}>{gettext("Register")}</.link>
             </li>
             <li>
-              <.link href={~p"/users/log-in"}>Log in</.link>
+              <.link href={~p"/users/log-in"}>{gettext("Log in")}</.link>
             </li>
           <% end %>
         </ul>
@@ -133,7 +134,7 @@ defmodule SocialWeb.Layouts do
         class="flex p-2 cursor-pointer w-1/3"
         phx-click={JS.dispatch("phx:set-theme")}
         data-phx-theme="system"
-        title="System theme"
+        title={gettext("System theme")}
       >
         <.icon name="hero-computer-desktop-micro" class="size-4 opacity-75 hover:opacity-100" />
       </button>

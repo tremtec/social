@@ -1,0 +1,461 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+
+#: lib/social_web/live/user_live/settings.ex:130
+#, elixir-autogen, elixir-format
+msgid "A link to confirm your email change has been sent to the new address."
+msgstr "Um link para confirmar a alteração do seu e-mail foi enviado para o novo endereço."
+
+#: lib/social_web/live/user_live/settings.ex:15
+#, elixir-autogen, elixir-format
+msgid "Account Settings"
+msgstr "Configurações da Conta"
+
+#: lib/social_web/components/core_components.ex:368
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr "Ações"
+
+#: lib/social_web/live/page_live.ex:168
+#, elixir-autogen, elixir-format
+msgid "Add"
+msgstr "Adicionar"
+
+#: lib/social_web/live/page_live.ex:146
+#, elixir-autogen, elixir-format
+msgid "Alerts"
+msgstr "Alertas"
+
+#: lib/social_web/live/user_live/registration.ex:17
+#, elixir-autogen, elixir-format
+msgid "Already registered?"
+msgstr "Já cadastrado?"
+
+#: lib/social_web/live/user_live/registration.ex:72
+#, elixir-autogen, elixir-format
+msgid "An email was sent to %{email}, please access it to confirm your account."
+msgstr "Um e-mail foi enviado para %{email}, por favor acesseo para confirmar sua conta."
+
+#: lib/social_web/components/layouts.ex:106
+#: lib/social_web/components/layouts.ex:118
+#, elixir-autogen, elixir-format
+msgid "Attempting to reconnect"
+msgstr "Tentando reconectar"
+
+#: lib/social_web/live/page_live.ex:150
+#, elixir-autogen, elixir-format
+msgid "Attention!"
+msgstr "Atenção!"
+
+#: lib/social_web/live/page_live.ex:106
+#, elixir-autogen, elixir-format
+msgid "Avatars"
+msgstr "Avatares"
+
+#: lib/social_web/live/page_live.ex:91
+#, elixir-autogen, elixir-format
+msgid "Badges"
+msgstr "Distintivos"
+
+#: lib/social_web/live/page_live.ex:74
+#, elixir-autogen, elixir-format
+msgid "Buttons"
+msgstr "Botões"
+
+#: lib/social_web/components/social_components.ex:489
+#, elixir-autogen, elixir-format
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: lib/social_web/live/user_live/settings.ex:30
+#, elixir-autogen, elixir-format
+msgid "Change Email"
+msgstr "Alterar E-mail"
+
+#: lib/social_web/live/user_live/settings.ex:29
+#, elixir-autogen, elixir-format
+msgid "Changing..."
+msgstr "Alterando..."
+
+#: lib/social_web/live/page_live.ex:40
+#, elixir-autogen, elixir-format
+msgid "Complete platform for managing NGOs, volunteers, donations and social events. Simplify your operations with humanized technology."
+msgstr "Plataforma completa para gerenciar ONGs, voluntários, doações e eventos sociais. Simplifique suas operações com tecnologia humanizada."
+
+#: lib/social_web/components/social_components.ex:500
+#, elixir-autogen, elixir-format
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: lib/social_web/live/user_live/settings.ex:63
+#, elixir-autogen, elixir-format
+msgid "Confirm new password"
+msgstr "Confirmar nova senha"
+
+#: lib/social/accounts/user_notifier.ex:71
+#, elixir-autogen, elixir-format
+msgid "Confirmation instructions"
+msgstr "Instruções de confirmação"
+
+#: lib/social_web/live/page_live.ex:249
+#, elixir-autogen, elixir-format
+msgid "Create Free Account"
+msgstr "Criar Conta Grátis"
+
+#: lib/social_web/live/user_live/registration.ex:38
+#, elixir-autogen, elixir-format
+msgid "Create an account"
+msgstr "Criar uma conta"
+
+#: lib/social_web/live/user_live/registration.ex:37
+#, elixir-autogen, elixir-format
+msgid "Creating account..."
+msgstr "Criando conta..."
+
+#: lib/social_web/live/page_live.ex:61
+#, elixir-autogen, elixir-format
+msgid "Design System"
+msgstr "Sistema de Design"
+
+#: lib/social_web/live/user_live/login.ex:19
+#, elixir-autogen, elixir-format
+msgid "Don't have an account? Sign up"
+msgstr "Não tem uma conta? Cadastre-se"
+
+#: lib/social_web/live/page_live.ex:210
+#, elixir-autogen, elixir-format
+msgid "Donation Control"
+msgstr "Controle de Doações"
+
+#: lib/social_web/live/page_live.ex:134
+#, elixir-autogen, elixir-format
+msgid "Donations"
+msgstr "Doações"
+
+#: lib/social_web/live/user_live/login.ex:50
+#: lib/social_web/live/user_live/login.ex:75
+#: lib/social_web/live/user_live/registration.ex:30
+#: lib/social_web/live/user_live/settings.ex:24
+#, elixir-autogen, elixir-format
+msgid "Email"
+msgstr "E-mail"
+
+#: lib/social_web/live/user_live/settings.ex:83
+#, elixir-autogen, elixir-format
+msgid "Email change link is invalid or it has expired."
+msgstr "O link de alteração de e-mail é inválido ou expirou."
+
+#: lib/social_web/live/user_live/settings.ex:80
+#, elixir-autogen, elixir-format
+msgid "Email changed successfully."
+msgstr "E-mail alterado com sucesso."
+
+#: lib/social_web/live/page_live.ex:159
+#, elixir-autogen, elixir-format
+msgid "Empty State"
+msgstr "Estado Vazio"
+
+#: lib/social_web/live/page_live.ex:224
+#, elixir-autogen, elixir-format
+msgid "Event Planning"
+msgstr "Planejamento de Eventos"
+
+#: lib/social_web/live/page_live.ex:183
+#, elixir-autogen, elixir-format
+msgid "Everything you need to manage your social organization."
+msgstr "Tudo o que você precisa para gerenciar sua organização social."
+
+#: lib/social_web/live/page_live.ex:181
+#, elixir-autogen, elixir-format
+msgid "Features"
+msgstr "Funcionalidades"
+
+#: lib/social_web/live/page_live.ex:47
+#, elixir-autogen, elixir-format
+msgid "Get Started"
+msgstr "Começar Agora"
+
+#: lib/social/accounts/user_notifier.ex:31
+#: lib/social/accounts/user_notifier.ex:58
+#: lib/social/accounts/user_notifier.ex:75
+#, elixir-autogen, elixir-format
+msgid "Hi %{email},"
+msgstr "Olá %{email},"
+
+#: lib/social/accounts/user_notifier.ex:81
+#, elixir-autogen, elixir-format
+msgid "If you didn't create an account with us, please ignore this."
+msgstr "Se você não criou uma conta conosco, por favor ignore isso."
+
+#: lib/social/accounts/user_notifier.ex:37
+#, elixir-autogen, elixir-format
+msgid "If you didn't request this change, please ignore this."
+msgstr "Se você não solicitou esta alteração, por favor ignore isso."
+
+#: lib/social/accounts/user_notifier.ex:64
+#, elixir-autogen, elixir-format
+msgid "If you didn't request this email, please ignore this."
+msgstr "Se você não solicitou este e-mail, por favor ignore isso."
+
+#: lib/social_web/live/user_live/login.ex:124
+#, elixir-autogen, elixir-format
+msgid "If your email is in our system, you will receive instructions for logging in shortly."
+msgstr "Se seu e-mail estiver em nosso sistema, você receberá instruções para fazer login em breve."
+
+#: lib/social_web/live/page_live.ex:36
+#, elixir-autogen, elixir-format
+msgid "Intelligent Social Management"
+msgstr "Gestão Social Inteligente"
+
+#: lib/social_web/live/page_live.ex:243
+#, elixir-autogen, elixir-format
+msgid "Join hundreds of organizations that already use Social Tools to make a difference in society."
+msgstr "Junte-se a centenas de organizações que já usam Ferramentas Sociais para fazer a diferença na sociedade."
+
+#: lib/social_web/components/layouts.ex:67
+#: lib/social_web/live/user_live/login.ex:14
+#: lib/social_web/live/user_live/registration.ex:19
+#, elixir-autogen, elixir-format
+msgid "Log in"
+msgstr "Entrar"
+
+#: lib/social_web/live/user_live/login.ex:88
+#, elixir-autogen, elixir-format
+msgid "Log in and stay logged in"
+msgstr "Entrar e permanecer conectado"
+
+#: lib/social/accounts/user_notifier.ex:54
+#, elixir-autogen, elixir-format
+msgid "Log in instructions"
+msgstr "Instruções de login"
+
+#: lib/social_web/live/user_live/login.ex:91
+#, elixir-autogen, elixir-format
+msgid "Log in only this time"
+msgstr "Entrar apenas desta vez"
+
+#: lib/social_web/live/user_live/login.ex:57
+#, elixir-autogen, elixir-format
+msgid "Log in with email"
+msgstr "Entrar com e-mail"
+
+#: lib/social_web/components/layouts.ex:60
+#, elixir-autogen, elixir-format
+msgid "Log out"
+msgstr "Sair"
+
+#: lib/social_web/live/page_live.ex:213
+#, elixir-autogen, elixir-format
+msgid "Manage financial and material donations with total transparency."
+msgstr "Gerencie doações financeiras e materiais com total transparência."
+
+#: lib/social_web/live/user_live/settings.ex:16
+#, elixir-autogen, elixir-format
+msgid "Manage your account email address and password settings"
+msgstr "Gerencie o endereço de e-mail e configurações de senha da sua conta"
+
+#: lib/social_web/live/user_live/settings.ex:55
+#, elixir-autogen, elixir-format
+msgid "New password"
+msgstr "Nova senha"
+
+#: lib/social_web/live/page_live.ex:162
+#, elixir-autogen, elixir-format
+msgid "No volunteers found"
+msgstr "Nenhum voluntário encontrado"
+
+#: lib/social_web/live/page_live.ex:148
+#, elixir-autogen, elixir-format
+msgid "Operation completed successfully."
+msgstr "Operação concluída com sucesso."
+
+#: lib/social_web/live/page_live.ex:227
+#, elixir-autogen, elixir-format
+msgid "Organize events and campaigns with integrated planning tools."
+msgstr "Organize eventos e campanhas com ferramentas integradas de planejamento."
+
+#: lib/social_web/live/user_live/login.ex:83
+#, elixir-autogen, elixir-format
+msgid "Password"
+msgstr "Senha"
+
+#: lib/social_web/live/page_live.ex:240
+#, elixir-autogen, elixir-format
+msgid "Ready to transform your social management?"
+msgstr "Pronto para transformar sua gestão social?"
+
+#: lib/social_web/components/layouts.ex:64
+#, elixir-autogen, elixir-format
+msgid "Register"
+msgstr "Cadastrar"
+
+#: lib/social_web/live/user_live/registration.ex:15
+#, elixir-autogen, elixir-format
+msgid "Register for an account"
+msgstr "Cadastrar uma conta"
+
+#: lib/social_web/live/page_live.ex:197
+#, elixir-autogen, elixir-format
+msgid "Register, organize and track activities of volunteers in your organization."
+msgstr "Cadastre, organize e acompanhe as atividades dos voluntários em sua organização."
+
+#: lib/social_web/live/page_live.ex:63
+#, elixir-autogen, elixir-format
+msgid "Reusable components built with Tailwind CSS and DaisyUI, with warm colors inspired by Brazilian culture."
+msgstr "Componentes reutilizáveis construídos com Tailwind CSS e DaisyUI, com cores quentes inspiradas na cultura brasileira."
+
+#: lib/social_web/live/user_live/settings.ex:68
+#, elixir-autogen, elixir-format
+msgid "Save Password"
+msgstr "Salvar Senha"
+
+#: lib/social_web/live/user_live/settings.ex:67
+#, elixir-autogen, elixir-format
+msgid "Saving..."
+msgstr "Salvando..."
+
+#: lib/social_web/components/layouts.ex:57
+#, elixir-autogen, elixir-format
+msgid "Settings"
+msgstr "Configurações"
+
+#: lib/social_web/components/layouts/root.html.heex:7
+#, elixir-autogen, elixir-format
+msgid "Social"
+msgstr "Social"
+
+#: lib/social_web/components/layouts.ex:43
+#, elixir-autogen, elixir-format
+msgid "Social Tools"
+msgstr "Ferramentas Sociais"
+
+#: lib/social_web/live/page_live.ex:32
+#: lib/social_web/live/page_live.ex:266
+#, elixir-autogen, elixir-format
+msgid "Social Tools by TremTec"
+msgstr "Ferramentas Sociais pela TremTec"
+
+#: lib/social_web/components/layouts.ex:113
+#, elixir-autogen, elixir-format
+msgid "Something went wrong!"
+msgstr "Algo deu errado!"
+
+#: lib/social_web/live/page_live.ex:164
+#, elixir-autogen, elixir-format
+msgid "Start by registering new volunteers for your organization."
+msgstr "Comece cadastrando novos voluntários para sua organização."
+
+#: lib/social_web/live/page_live.ex:125
+#, elixir-autogen, elixir-format
+msgid "Stats"
+msgstr "Estatísticas"
+
+#: lib/social_web/live/page_live.ex:147
+#, elixir-autogen, elixir-format
+msgid "Success!"
+msgstr "Sucesso!"
+
+#: lib/social_web/components/layouts.ex:137
+#, elixir-autogen, elixir-format
+msgid "System theme"
+msgstr "Tema do sistema"
+
+#: lib/social_web/live/page_live.ex:252
+#, elixir-autogen, elixir-format
+msgid "Talk to Consultant"
+msgstr "Falar com Consultor"
+
+#: lib/social_web/live/user_live/login.ex:34
+#, elixir-autogen, elixir-format
+msgid "To see sent emails, visit"
+msgstr "Para ver os e-mails enviados, visite"
+
+#: lib/social/accounts/user_notifier.ex:27
+#, elixir-autogen, elixir-format
+msgid "Update email instructions"
+msgstr "Instruções de atualização de e-mail"
+
+#: lib/social_web/live/page_live.ex:151
+#, elixir-autogen, elixir-format
+msgid "Verify the data before continuing."
+msgstr "Verifique os dados antes de continuar."
+
+#: lib/social_web/live/page_live.ex:194
+#, elixir-autogen, elixir-format
+msgid "Volunteer Management"
+msgstr "Gestão de Voluntários"
+
+#: lib/social_web/live/page_live.ex:128
+#, elixir-autogen, elixir-format
+msgid "Volunteers"
+msgstr "Voluntários"
+
+#: lib/social_web/live/page_live.ex:50
+#, elixir-autogen, elixir-format
+msgid "Watch Demo"
+msgstr "Ver Demonstração"
+
+#: lib/social_web/components/layouts.ex:101
+#, elixir-autogen, elixir-format
+msgid "We can't find the internet"
+msgstr "Não conseguimos encontrar a internet"
+
+#: lib/social_web/live/user_live/login.ex:32
+#, elixir-autogen, elixir-format
+msgid "You are running the local mail adapter."
+msgstr "Você está executando o adaptador de e-mail local."
+
+#: lib/social/accounts/user_notifier.ex:33
+#, elixir-autogen, elixir-format
+msgid "You can change your email by visiting the URL below:"
+msgstr "Você pode alterar seu e-mail visitando o URL abaixo:"
+
+#: lib/social/accounts/user_notifier.ex:77
+#, elixir-autogen, elixir-format
+msgid "You can confirm your account by visiting the URL below:"
+msgstr "Você pode confirmar sua conta visitando o URL abaixo:"
+
+#: lib/social/accounts/user_notifier.ex:60
+#, elixir-autogen, elixir-format
+msgid "You can log into your account by visiting the URL below:"
+msgstr "Você pode fazer login na sua conta visitando o URL abaixo:"
+
+#: lib/social_web/live/user_live/login.ex:17
+#, elixir-autogen, elixir-format
+msgid "You need to reauthenticate to perform sensitive actions on your account."
+msgstr "Você precisa reautenticar para executar ações sensíveis em sua conta."
+
+#: lib/social_web/components/core_components.ex:74
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr "fechar"
+
+#: lib/social_web/live/user_live/login.ex:23
+#, elixir-autogen, elixir-format
+msgid "for an account now."
+msgstr "para criar uma conta agora."
+
+#: lib/social_web/live/user_live/login.ex:61
+#, elixir-autogen, elixir-format
+msgid "or"
+msgstr "ou"
+
+#: lib/social_web/live/user_live/login.ex:34
+#, elixir-autogen, elixir-format
+msgid "the mailbox page"
+msgstr "a página de caixa de e-mail"
+
+#: lib/social_web/live/user_live/registration.ex:21
+#, elixir-autogen, elixir-format
+msgid "to your account now."
+msgstr "para sua conta agora."

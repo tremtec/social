@@ -1,0 +1,283 @@
+## This is a PO Template file.
+##
+## `msgid`s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run `mix gettext.extract` to bring this file up to
+## date. Leave `msgstr`s empty as changing them here has no
+## effect: edit them in PO (`.po`) files instead.
+msgid ""
+msgstr ""
+
+## App metadata
+msgid "Social"
+msgstr ""
+
+msgid "Social Tools"
+msgstr ""
+
+## Root layout
+msgid "Social Tools by TremTec"
+msgstr ""
+
+## Landing page
+msgid "Intelligent Social Management"
+msgstr ""
+
+msgid "Complete platform for managing NGOs, volunteers, donations and social events. Simplify your operations with humanized technology."
+msgstr ""
+
+msgid "Get Started"
+msgstr ""
+
+msgid "Watch Demo"
+msgstr ""
+
+msgid "Design System"
+msgstr ""
+
+msgid "Reusable components built with Tailwind CSS and DaisyUI, with warm colors inspired by Brazilian culture."
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid "Badges"
+msgstr ""
+
+msgid "Avatars"
+msgstr ""
+
+msgid "Stats"
+msgstr ""
+
+msgid "Alerts"
+msgstr ""
+
+msgid "Empty State"
+msgstr ""
+
+msgid "Volunteers"
+msgstr ""
+
+msgid "Donations"
+msgstr ""
+
+msgid "Success!"
+msgstr ""
+
+msgid "Operation completed successfully."
+msgstr ""
+
+msgid "Attention!"
+msgstr ""
+
+msgid "Verify the data before continuing."
+msgstr ""
+
+msgid "No volunteers found"
+msgstr ""
+
+msgid "Start by registering new volunteers for your organization."
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "Everything you need to manage your social organization."
+msgstr ""
+
+msgid "Volunteer Management"
+msgstr ""
+
+msgid "Register, organize and track activities of volunteers in your organization."
+msgstr ""
+
+msgid "Donation Control"
+msgstr ""
+
+msgid "Manage financial and material donations with total transparency."
+msgstr ""
+
+msgid "Event Planning"
+msgstr ""
+
+msgid "Organize events and campaigns with integrated planning tools."
+msgstr ""
+
+msgid "Ready to transform your social management?"
+msgstr ""
+
+msgid "Join hundreds of organizations that already use Social Tools to make a difference in society."
+msgstr ""
+
+msgid "Create Free Account"
+msgstr ""
+
+msgid "Talk to Consultant"
+msgstr ""
+
+## Authentication - Login
+msgid "Log in"
+msgstr ""
+
+msgid "You need to reauthenticate to perform sensitive actions on your account."
+msgstr ""
+
+msgid "Don't have an account? Sign up"
+msgstr ""
+
+msgid "for an account now."
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Log in with email"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "Log in and stay logged in"
+msgstr ""
+
+msgid "Log in only this time"
+msgstr ""
+
+msgid "You are running the local mail adapter."
+msgstr ""
+
+msgid "To see sent emails, visit"
+msgstr ""
+
+msgid "the mailbox page"
+msgstr ""
+
+msgid "If your email is in our system, you will receive instructions for logging in shortly."
+msgstr ""
+
+## Authentication - Registration
+msgid "Register for an account"
+msgstr ""
+
+msgid "Already registered?"
+msgstr ""
+
+msgid "to your account now."
+msgstr ""
+
+msgid "Create an account"
+msgstr ""
+
+msgid "An email was sent to %{email}, please access it to confirm your account."
+msgstr ""
+
+## Authentication - Settings
+msgid "Account Settings"
+msgstr ""
+
+msgid "Manage your account email address and password settings"
+msgstr ""
+
+msgid "Change Email"
+msgstr ""
+
+msgid "Changing..."
+msgstr ""
+
+msgid "New password"
+msgstr ""
+
+msgid "Confirm new password"
+msgstr ""
+
+msgid "Saving..."
+msgstr ""
+
+msgid "Save Password"
+msgstr ""
+
+msgid "Email changed successfully."
+msgstr ""
+
+msgid "Email change link is invalid or it has expired."
+msgstr ""
+
+msgid "A link to confirm your email change has been sent to the new address."
+msgstr ""
+
+## Layout
+msgid "Settings"
+msgstr ""
+
+msgid "Log out"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+## Theme toggle
+msgid "System theme"
+msgstr ""
+
+## Flash messages (already in layouts)
+msgid "We can't find the internet"
+msgstr ""
+
+msgid "Attempting to reconnect"
+msgstr ""
+
+msgid "Something went wrong!"
+msgstr ""
+
+## Components
+msgid "Cancel"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "close"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+## Email templates
+msgid "Update email instructions"
+msgstr ""
+
+msgid "Hi %{email},"
+msgstr ""
+
+msgid "You can change your email by visiting the URL below:"
+msgstr ""
+
+msgid "If you didn't request this change, please ignore this."
+msgstr ""
+
+msgid "Log in instructions"
+msgstr ""
+
+msgid "You can log into your account by visiting the URL below:"
+msgstr ""
+
+msgid "If you didn't request this email, please ignore this."
+msgstr ""
+
+msgid "Confirmation instructions"
+msgstr ""
+
+msgid "You can confirm your account by visiting the URL below:"
+msgstr ""
+
+msgid "If you didn't create an account with us, please ignore this."
+msgstr ""

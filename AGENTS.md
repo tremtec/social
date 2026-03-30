@@ -508,3 +508,102 @@ And **never** do this:
 <!-- phoenix:liveview-end -->
 
 <!-- usage-rules-end -->
+<!-- phoenix:i18n-start -->
+## Internationalization (i18n) with Gettext
+
+This project uses **Gettext** for internationalization. All user-facing text should be internationalized using gettext functions.
+
+### Supported Locales
+
+- `en` - English (default)
+- `pt_BR` - Brazilian Portuguese
+
+### Adding i18n Support to a New Module
+
+When creating new LiveViews or components that display user-facing text, you must:
+
+1. **Import Gettext** in the module:
+
+       use Gettext, backend: SocialWeb.Gettext
+
+2. **Use gettext/1** for translatable strings in the module:
+
+       gettext("Hello World")
+       gettext("Welcome, %{name}!", name: user.name)
+
+3. **Add translations** to the PO files:
+   - English: `priv/gettext/en/LC_MESSAGES/app.po`
+   - Portuguese: `priv/gettext/pt_br/LC_MESSAGES/app.po`
+
+4. **Update the template file** by running:
+
+       mix gettext.extract
+
+### Locale Detection
+
+The application detects user locale using:
+1. Session-stored locale (set when user manually changes language)
+2. Accept-Language HTTP header (browser preference)
+
+The locale plug (`SocialWeb.Plugs.Locale`) handles this and sets:
+- `@locale` assign on all LiveViews
+- Gettext locale for translations
+
+### Using Locale in Templates
+
+Access the locale from assigns:
+
+    <div class="locale">Locale: {@locale}</div>
+
+### HTML lang Attribute
+
+The root layout dynamically sets the HTML lang attribute based on the current locale:
+
+    <html lang={@locale}>
+
+### Best Practices
+
+- **Never hardcode user-facing text** - always use gettext
+- **Use meaningful msgid strings** in English that clearly convey meaning
+- **Group translations** by feature in PO files using comments:
+  
+      ## Authentication - Login
+      msgid "Log in"
+      msgstr "Log in"
+
+- **Test with different locales** to ensure translations display correctly
+- **Run `mix gettext.extract`** after adding new translatable strings to update the POT file
+
+### Example: Adding a New Translatable String
+
+**1. In your LiveView:**
+
+    def render(assigns) do
+      ~H"""
+      <h1>{gettext("Welcome")}</h1>
+      <p>{gettext("Hello, %{name}!", name: @user.name)}</p>
+      """
+    end
+
+**2. Extract new strings:**
+
+    mix gettext.extract
+
+**3. Add translations to PO files:**
+
+In `priv/gettext/pt_br/LC_MESSAGES/app.po`:
+
+    msgid "Welcome"
+    msgstr "Bem-vindo"
+
+    msgid "Hello, %{name}!"
+    msgstr "Olá, %{name}!"
+
+### Key Files
+
+- `lib/social_web/plugs/locale.ex` - Locale detection plug
+- `priv/gettext/application.pot` - Translation template
+- `priv/gettext/en/LC_MESSAGES/app.po` - English translations
+- `priv/gettext/pt_br/LC_MESSAGES/app.po` - Portuguese translations
+
+<!-- phoenix:i18n-end -->

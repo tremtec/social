@@ -7,10 +7,11 @@ defmodule SocialWeb.Router do
     plug :accepts, ["html"]
     plug :fetch_session
     plug :fetch_live_flash
-    plug :put_root_layout, html: {SocialWeb.Layouts, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
     plug :fetch_current_scope_for_user
+    plug SocialWeb.Plugs.Locale
+    plug :put_root_layout, html: {SocialWeb.Layouts, :root}
   end
 
   pipeline :api do
@@ -51,7 +52,10 @@ defmodule SocialWeb.Router do
     pipe_through [:browser, :require_authenticated_user]
 
     live_session :require_authenticated_user,
-      on_mount: [{SocialWeb.UserAuth, :require_authenticated}] do
+      on_mount: [
+        {SocialWeb.UserAuth, :mount_current_scope},
+        {SocialWeb.Hooks.Locale, :set_locale}
+      ] do
       live "/users/settings", UserLive.Settings, :edit
       live "/users/settings/confirm-email/:token", UserLive.Settings, :confirm_email
     end
@@ -63,7 +67,10 @@ defmodule SocialWeb.Router do
     pipe_through [:browser]
 
     live_session :current_user,
-      on_mount: [{SocialWeb.UserAuth, :mount_current_scope}] do
+      on_mount: [
+        {SocialWeb.UserAuth, :mount_current_scope},
+        {SocialWeb.Hooks.Locale, :set_locale}
+      ] do
       # Landing page
       live "/", PageLive, :index
 

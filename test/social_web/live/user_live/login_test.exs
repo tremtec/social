@@ -76,12 +76,12 @@ defmodule SocialWeb.UserLive.LoginTest do
   end
 
   describe "login navigation" do
-    test "redirects to registration page when the Register button is clicked", %{conn: conn} do
+    test "redirects to registration page when the Register link is clicked", %{conn: conn} do
       {:ok, lv, _html} = live(conn, ~p"/users/log-in")
 
       {:ok, _login_live, login_html} =
         lv
-        |> element("main a", "Sign up")
+        |> element("main a", "for an account now.")
         |> render_click()
         |> follow_redirect(conn, ~p"/users/register")
 

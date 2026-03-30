@@ -29,24 +29,25 @@ defmodule SocialWeb.PageLive do
             <div class="text-center mb-12">
               <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
                 <.icon name="hero-sparkles" class="w-5 h-5" />
-                <span class="text-sm font-medium">Social Tools by TremTec</span>
+                <span class="text-sm font-medium">{gettext("Social Tools by TremTec")}</span>
               </div>
 
               <h1 class="text-5xl md:text-6xl font-bold text-base-content mb-6">
-                Gestão Social <span class="text-primary">Inteligente</span>
+                {gettext("Intelligent Social Management")} <span class="text-primary"></span>
               </h1>
 
               <p class="text-xl text-base-content/70 max-w-2xl mx-auto mb-8">
-                Plataforma completa para gestão de ONGs, voluntários, doações e eventos sociais.
-                Simplifique sua operação com tecnologia humanizada.
+                {gettext(
+                  "Complete platform for managing NGOs, volunteers, donations and social events. Simplify your operations with humanized technology."
+                )}
               </p>
 
               <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <.social_button variant="primary" size="lg">
-                  <.icon name="hero-rocket-launch" class="w-5 h-5 mr-2" /> Começar Agora
+                  <.icon name="hero-rocket-launch" class="w-5 h-5 mr-2" /> {gettext("Get Started")}
                 </.social_button>
                 <.social_button variant="ghost" size="lg">
-                  <.icon name="hero-play" class="w-5 h-5 mr-2" /> Ver Demo
+                  <.icon name="hero-play" class="w-5 h-5 mr-2" /> {gettext("Watch Demo")}
                 </.social_button>
               </div>
             </div>
@@ -57,10 +58,11 @@ defmodule SocialWeb.PageLive do
         <section class="py-16 px-4">
           <div class="mx-auto max-w-6xl">
             <div class="text-center mb-12">
-              <h2 class="text-3xl font-bold text-base-content mb-4">Design System</h2>
+              <h2 class="text-3xl font-bold text-base-content mb-4">{gettext("Design System")}</h2>
               <p class="text-base-content/60 max-w-xl mx-auto">
-                Componentes reutilizáveis construídos com Tailwind CSS e DaisyUI,
-                com cores quentes inspiradas na cultura brasileira.
+                {gettext(
+                  "Reusable components built with Tailwind CSS and DaisyUI, with warm colors inspired by Brazilian culture."
+                )}
               </p>
             </div>
             
@@ -69,7 +71,7 @@ defmodule SocialWeb.PageLive do
               <!-- Buttons Showcase -->
               <.social_card padding="small">
                 <div class="space-y-3">
-                  <h3 class="font-semibold text-base-content">Botões</h3>
+                  <h3 class="font-semibold text-base-content">{gettext("Buttons")}</h3>
                   <div class="flex flex-wrap gap-2">
                     <.social_button variant="primary" size="sm">Primary</.social_button>
                     <.social_button variant="secondary" size="sm">Secondary</.social_button>
@@ -86,7 +88,7 @@ defmodule SocialWeb.PageLive do
     <!-- Badges Showcase -->
               <.social_card padding="small">
                 <div class="space-y-3">
-                  <h3 class="font-semibold text-base-content">Badges</h3>
+                  <h3 class="font-semibold text-base-content">{gettext("Badges")}</h3>
                   <div class="flex flex-wrap gap-2">
                     <.social_badge variant="primary">Primary</.social_badge>
                     <.social_badge variant="secondary">Secondary</.social_badge>
@@ -101,7 +103,7 @@ defmodule SocialWeb.PageLive do
     <!-- Avatar Showcase -->
               <.social_card padding="small">
                 <div class="space-y-3">
-                  <h3 class="font-semibold text-base-content">Avatares</h3>
+                  <h3 class="font-semibold text-base-content">{gettext("Avatars")}</h3>
                   <div class="flex items-center gap-3">
                     <.social_avatar src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" />
                     <.social_avatar
@@ -120,16 +122,16 @@ defmodule SocialWeb.PageLive do
     <!-- Stats Showcase -->
               <.social_card padding="small">
                 <div class="space-y-3">
-                  <h3 class="font-semibold text-base-content">Estatísticas</h3>
+                  <h3 class="font-semibold text-base-content">{gettext("Stats")}</h3>
                   <div class="grid grid-cols-2 gap-3">
                     <.social_stat
-                      title="Voluntários"
+                      title={gettext("Volunteers")}
                       value="1,234"
                       trend="up"
                       trend_value="+12%"
                     />
                     <.social_stat
-                      title="Doações"
+                      title={gettext("Donations")}
                       value="R$ 45K"
                       trend="up"
                       trend_value="+8%"
@@ -141,12 +143,12 @@ defmodule SocialWeb.PageLive do
     <!-- Alerts Showcase -->
               <.social_card padding="small">
                 <div class="space-y-3">
-                  <h3 class="font-semibold text-base-content">Alertas</h3>
-                  <.social_alert variant="success" title="Sucesso!">
-                    Operação realizada com sucesso.
+                  <h3 class="font-semibold text-base-content">{gettext("Alerts")}</h3>
+                  <.social_alert variant="success" title={gettext("Success!")}>
+                    {gettext("Operation completed successfully.")}
                   </.social_alert>
-                  <.social_alert variant="warning" title="Atenção!">
-                    Verifique os dados antes de continuar.
+                  <.social_alert variant="warning" title={gettext("Attention!")}>
+                    {gettext("Verify the data before continuing.")}
                   </.social_alert>
                 </div>
               </.social_card>
@@ -154,14 +156,16 @@ defmodule SocialWeb.PageLive do
     <!-- Empty State Showcase -->
               <.social_card padding="small">
                 <div class="space-y-3">
-                  <h3 class="font-semibold text-base-content">Empty State</h3>
+                  <h3 class="font-semibold text-base-content">{gettext("Empty State")}</h3>
                   <.social_empty_state
                     icon="hero-users"
-                    title="Nenhum voluntário encontrado"
-                    description="Comece cadastrando novos voluntários para sua organização."
+                    title={gettext("No volunteers found")}
+                    description={
+                      gettext("Start by registering new volunteers for your organization.")
+                    }
                   >
                     <.social_button variant="primary" size="sm">
-                      <.icon name="hero-plus" class="w-4 h-4 mr-1" /> Adicionar
+                      <.icon name="hero-plus" class="w-4 h-4 mr-1" /> {gettext("Add")}
                     </.social_button>
                   </.social_empty_state>
                 </div>
@@ -174,9 +178,9 @@ defmodule SocialWeb.PageLive do
         <section class="py-16 px-4 bg-base-200/50">
           <div class="mx-auto max-w-6xl">
             <div class="text-center mb-12">
-              <h2 class="text-3xl font-bold text-base-content mb-4">Funcionalidades</h2>
+              <h2 class="text-3xl font-bold text-base-content mb-4">{gettext("Features")}</h2>
               <p class="text-base-content/60 max-w-xl mx-auto">
-                Tudo que você precisa para gerenciar sua organização social.
+                {gettext("Everything you need to manage your social organization.")}
               </p>
             </div>
 
@@ -186,9 +190,13 @@ defmodule SocialWeb.PageLive do
                   <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 text-primary mb-4">
                     <.icon name="hero-users" class="w-7 h-7" />
                   </div>
-                  <h3 class="text-lg font-semibold text-base-content mb-2">Gestão de Voluntários</h3>
+                  <h3 class="text-lg font-semibold text-base-content mb-2">
+                    {gettext("Volunteer Management")}
+                  </h3>
                   <p class="text-base-content/60 text-sm">
-                    Cadastre, organize e acompanhe atividades dos voluntários da sua organização.
+                    {gettext(
+                      "Register, organize and track activities of volunteers in your organization."
+                    )}
                   </p>
                 </div>
               </.social_card>
@@ -198,9 +206,11 @@ defmodule SocialWeb.PageLive do
                   <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-secondary/10 text-secondary mb-4">
                     <.icon name="hero-heart" class="w-7 h-7" />
                   </div>
-                  <h3 class="text-lg font-semibold text-base-content mb-2">Controle de Doações</h3>
+                  <h3 class="text-lg font-semibold text-base-content mb-2">
+                    {gettext("Donation Control")}
+                  </h3>
                   <p class="text-base-content/60 text-sm">
-                    Gerencie doações financeiras e de materiais com transparência total.
+                    {gettext("Manage financial and material donations with total transparency.")}
                   </p>
                 </div>
               </.social_card>
@@ -211,10 +221,10 @@ defmodule SocialWeb.PageLive do
                     <.icon name="hero-calendar" class="w-7 h-7" />
                   </div>
                   <h3 class="text-lg font-semibold text-base-content mb-2">
-                    Planejamento de Eventos
+                    {gettext("Event Planning")}
                   </h3>
                   <p class="text-base-content/60 text-sm">
-                    Organize eventos e campanhas com ferramentas de planejamento integradas.
+                    {gettext("Organize events and campaigns with integrated planning tools.")}
                   </p>
                 </div>
               </.social_card>
@@ -227,18 +237,21 @@ defmodule SocialWeb.PageLive do
           <div class="mx-auto max-w-4xl text-center">
             <.social_card glass>
               <h2 class="text-3xl font-bold text-base-content mb-4">
-                Pronto para transformar sua gestão social?
+                {gettext("Ready to transform your social management?")}
               </h2>
               <p class="text-base-content/60 mb-8 max-w-xl mx-auto">
-                Junte-se a centenas de organizações que já utilizam a Social Tools
-                para fazer a diferença na sociedade.
+                {gettext(
+                  "Join hundreds of organizations that already use Social Tools to make a difference in society."
+                )}
               </p>
               <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <.social_button variant="primary" size="lg">
-                  <.icon name="hero-user-plus" class="w-5 h-5 mr-2" /> Criar Conta Grátis
+                  <.icon name="hero-user-plus" class="w-5 h-5 mr-2" /> {gettext("Create Free Account")}
                 </.social_button>
                 <.social_button variant="ghost" size="lg">
-                  <.icon name="hero-chat-bubble-left" class="w-5 h-5 mr-2" /> Falar com Consultor
+                  <.icon name="hero-chat-bubble-left" class="w-5 h-5 mr-2" /> {gettext(
+                    "Talk to Consultant"
+                  )}
                 </.social_button>
               </div>
             </.social_card>
@@ -250,7 +263,7 @@ defmodule SocialWeb.PageLive do
           <div class="mx-auto max-w-6xl flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="flex items-center gap-2 text-base-content/60">
               <.icon name="hero-heart" class="w-5 h-5 text-secondary" />
-              <span>Social Tools by TremTec</span>
+              <span>{gettext("Social Tools by TremTec")}</span>
             </div>
             <div class="flex items-center gap-4">
               <Layouts.theme_toggle />

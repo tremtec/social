@@ -1,0 +1,273 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+
+msgid "Social"
+msgstr "Social"
+
+msgid "Social Tools"
+msgstr "Ferramentas Sociais"
+
+msgid "Social Tools by TremTec"
+msgstr "Ferramentas Sociais pela TremTec"
+
+msgid "Intelligent Social Management"
+msgstr "Gestão Social Inteligente"
+
+msgid "Complete platform for managing NGOs, volunteers, donations and social events. Simplify your operations with humanized technology."
+msgstr "Plataforma completa para gerenciar ONGs, voluntários, doações e eventos sociais. Simplifique suas operações com tecnologia humanizada."
+
+msgid "Get Started"
+msgstr "Começar Agora"
+
+msgid "Watch Demo"
+msgstr "Ver Demonstração"
+
+msgid "Design System"
+msgstr "Sistema de Design"
+
+msgid "Reusable components built with Tailwind CSS and DaisyUI, with warm colors inspired by Brazilian culture."
+msgstr "Componentes reutilizáveis construídos com Tailwind CSS e DaisyUI, com cores quentes inspiradas na cultura brasileira."
+
+msgid "Buttons"
+msgstr "Botões"
+
+msgid "Badges"
+msgstr "Distintivos"
+
+msgid "Avatars"
+msgstr "Avatares"
+
+msgid "Stats"
+msgstr "Estatísticas"
+
+msgid "Alerts"
+msgstr "Alertas"
+
+msgid "Empty State"
+msgstr "Estado Vazio"
+
+msgid "Volunteers"
+msgstr "Voluntários"
+
+msgid "Donations"
+msgstr "Doações"
+
+msgid "Success!"
+msgstr "Sucesso!"
+
+msgid "Operation completed successfully."
+msgstr "Operação concluída com sucesso."
+
+msgid "Attention!"
+msgstr "Atenção!"
+
+msgid "Verify the data before continuing."
+msgstr "Verifique os dados antes de continuar."
+
+msgid "No volunteers found"
+msgstr "Nenhum voluntário encontrado"
+
+msgid "Start by registering new volunteers for your organization."
+msgstr "Comece cadastrando novos voluntários para sua organização."
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "Features"
+msgstr "Funcionalidades"
+
+msgid "Everything you need to manage your social organization."
+msgstr "Tudo o que você precisa para gerenciar sua organização social."
+
+msgid "Volunteer Management"
+msgstr "Gestão de Voluntários"
+
+msgid "Register, organize and track activities of volunteers in your organization."
+msgstr "Cadastre, organize e acompanhe as atividades dos voluntários em sua organização."
+
+msgid "Donation Control"
+msgstr "Controle de Doações"
+
+msgid "Manage financial and material donations with total transparency."
+msgstr "Gerencie doações financeiras e materiais com total transparência."
+
+msgid "Event Planning"
+msgstr "Planejamento de Eventos"
+
+msgid "Organize events and campaigns with integrated planning tools."
+msgstr "Organize eventos e campanhas com ferramentas integradas de planejamento."
+
+msgid "Ready to transform your social management?"
+msgstr "Pronto para transformar sua gestão social?"
+
+msgid "Join hundreds of organizations that already use Social Tools to make a difference in society."
+msgstr "Junte-se a centenas de organizações que já usam Ferramentas Sociais para fazer a diferença na sociedade."
+
+msgid "Create Free Account"
+msgstr "Criar Conta Grátis"
+
+msgid "Talk to Consultant"
+msgstr "Falar com Consultor"
+
+msgid "Log in"
+msgstr "Entrar"
+
+msgid "You need to reauthenticate to perform sensitive actions on your account."
+msgstr "Você precisa reautenticar para executar ações sensíveis em sua conta."
+
+msgid "Don't have an account? Sign up"
+msgstr "Não tem uma conta? Cadastre-se"
+
+msgid "for an account now."
+msgstr "para criar uma conta agora."
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Password"
+msgstr "Senha"
+
+msgid "Log in with email"
+msgstr "Entrar com e-mail"
+
+msgid "or"
+msgstr "ou"
+
+msgid "Log in and stay logged in"
+msgstr "Entrar e permanecer conectado"
+
+msgid "Log in only this time"
+msgstr "Entrar apenas desta vez"
+
+msgid "You are running the local mail adapter."
+msgstr "Você está executando o adaptador de e-mail local."
+
+msgid "To see sent emails, visit"
+msgstr "Para ver os e-mails enviados, visite"
+
+msgid "the mailbox page"
+msgstr "a página de caixa de e-mail"
+
+msgid "If your email is in our system, you will receive instructions for logging in shortly."
+msgstr "Se seu e-mail estiver em nosso sistema, você receberá instruções para fazer login em breve."
+
+msgid "Register for an account"
+msgstr "Cadastrar uma conta"
+
+msgid "Already registered?"
+msgstr "Já cadastrado?"
+
+msgid "to your account now."
+msgstr "para sua conta agora."
+
+msgid "Create an account"
+msgstr "Criar uma conta"
+
+msgid "An email was sent to %{email}, please access it to confirm your account."
+msgstr "Um e-mail foi enviado para %{email}, por favor acesseo para confirmar sua conta."
+
+msgid "Account Settings"
+msgstr "Configurações da Conta"
+
+msgid "Manage your account email address and password settings"
+msgstr "Gerencie o endereço de e-mail e configurações de senha da sua conta"
+
+msgid "Change Email"
+msgstr "Alterar E-mail"
+
+msgid "Changing..."
+msgstr "Alterando..."
+
+msgid "New password"
+msgstr "Nova senha"
+
+msgid "Confirm new password"
+msgstr "Confirmar nova senha"
+
+msgid "Saving..."
+msgstr "Salvando..."
+
+msgid "Save Password"
+msgstr "Salvar Senha"
+
+msgid "Email changed successfully."
+msgstr "E-mail alterado com sucesso."
+
+msgid "Email change link is invalid or it has expired."
+msgstr "O link de alteração de e-mail é inválido ou expirou."
+
+msgid "A link to confirm your email change has been sent to the new address."
+msgstr "Um link para confirmar a alteração do seu e-mail foi enviado para o novo endereço."
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Log out"
+msgstr "Sair"
+
+msgid "Register"
+msgstr "Cadastrar"
+
+msgid "System theme"
+msgstr "Tema do sistema"
+
+msgid "We can't find the internet"
+msgstr "Não conseguimos encontrar a internet"
+
+msgid "Attempting to reconnect"
+msgstr "Tentando reconectar"
+
+msgid "Something went wrong!"
+msgstr "Algo deu errado!"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgid "close"
+msgstr "fechar"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Update email instructions"
+msgstr "Instruções de atualização de e-mail"
+
+msgid "Hi %{email},"
+msgstr "Olá %{email},"
+
+msgid "You can change your email by visiting the URL below:"
+msgstr "Você pode alterar seu e-mail visitando o URL abaixo:"
+
+msgid "If you didn't request this change, please ignore this."
+msgstr "Se você não solicitou esta alteração, por favor ignore isso."
+
+msgid "Log in instructions"
+msgstr "Instruções de login"
+
+msgid "You can log into your account by visiting the URL below:"
+msgstr "Você pode fazer login na sua conta visitando o URL abaixo:"
+
+msgid "If you didn't request this email, please ignore this."
+msgstr "Se você não solicitou este e-mail, por favor ignore isso."
+
+msgid "Confirmation instructions"
+msgstr "Instruções de confirmação"
+
+msgid "You can confirm your account by visiting the URL below:"
+msgstr "Você pode confirmar sua conta visitando o URL abaixo:"
+
+msgid "If you didn't create an account with us, please ignore this."
+msgstr "Se você não criou uma conta conosco, por favor ignore isso."

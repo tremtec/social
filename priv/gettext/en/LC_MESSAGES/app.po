@@ -1,0 +1,284 @@
+## This file is a PO Template.
+##
+## `msgid`s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run `mix gettext.extract` to bring this file up to
+## date. Leave `msgstr`s empty as changing them here has no
+## effect: edit them in PO (`.po`) files instead.
+msgid ""
+msgstr ""
+"Language: en\n"
+
+## App metadata
+msgid "Social"
+msgstr "Social"
+
+msgid "Social Tools"
+msgstr "Social Tools"
+
+## Root layout
+msgid "Social Tools by TremTec"
+msgstr "Social Tools by TremTec"
+
+## Landing page
+msgid "Intelligent Social Management"
+msgstr "Intelligent Social Management"
+
+msgid "Complete platform for managing NGOs, volunteers, donations and social events. Simplify your operations with humanized technology."
+msgstr "Complete platform for managing NGOs, volunteers, donations and social events. Simplify your operations with humanized technology."
+
+msgid "Get Started"
+msgstr "Get Started"
+
+msgid "Watch Demo"
+msgstr "Watch Demo"
+
+msgid "Design System"
+msgstr "Design System"
+
+msgid "Reusable components built with Tailwind CSS and DaisyUI, with warm colors inspired by Brazilian culture."
+msgstr "Reusable components built with Tailwind CSS and DaisyUI, with warm colors inspired by Brazilian culture."
+
+msgid "Buttons"
+msgstr "Buttons"
+
+msgid "Badges"
+msgstr "Badges"
+
+msgid "Avatars"
+msgstr "Avatars"
+
+msgid "Stats"
+msgstr "Stats"
+
+msgid "Alerts"
+msgstr "Alerts"
+
+msgid "Empty State"
+msgstr "Empty State"
+
+msgid "Volunteers"
+msgstr "Volunteers"
+
+msgid "Donations"
+msgstr "Donations"
+
+msgid "Success!"
+msgstr "Success!"
+
+msgid "Operation completed successfully."
+msgstr "Operation completed successfully."
+
+msgid "Attention!"
+msgstr "Attention!"
+
+msgid "Verify the data before continuing."
+msgstr "Verify the data before continuing."
+
+msgid "No volunteers found"
+msgstr "No volunteers found"
+
+msgid "Start by registering new volunteers for your organization."
+msgstr "Start by registering new volunteers for your organization."
+
+msgid "Add"
+msgstr "Add"
+
+msgid "Features"
+msgstr "Features"
+
+msgid "Everything you need to manage your social organization."
+msgstr "Everything you need to manage your social organization."
+
+msgid "Volunteer Management"
+msgstr "Volunteer Management"
+
+msgid "Register, organize and track activities of volunteers in your organization."
+msgstr "Register, organize and track activities of volunteers in your organization."
+
+msgid "Donation Control"
+msgstr "Donation Control"
+
+msgid "Manage financial and material donations with total transparency."
+msgstr "Manage financial and material donations with total transparency."
+
+msgid "Event Planning"
+msgstr "Event Planning"
+
+msgid "Organize events and campaigns with integrated planning tools."
+msgstr "Organize events and campaigns with integrated planning tools."
+
+msgid "Ready to transform your social management?"
+msgstr "Ready to transform your social management?"
+
+msgid "Join hundreds of organizations that already use Social Tools to make a difference in society."
+msgstr "Join hundreds of organizations that already use Social Tools to make a difference in society."
+
+msgid "Create Free Account"
+msgstr "Create Free Account"
+
+msgid "Talk to Consultant"
+msgstr "Talk to Consultant"
+
+## Authentication - Login
+msgid "Log in"
+msgstr "Log in"
+
+msgid "You need to reauthenticate to perform sensitive actions on your account."
+msgstr "You need to reauthenticate to perform sensitive actions on your account."
+
+msgid "Don't have an account? Sign up"
+msgstr "Don't have an account? Sign up"
+
+msgid "for an account now."
+msgstr "for an account now."
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Log in with email"
+msgstr "Log in with email"
+
+msgid "or"
+msgstr "or"
+
+msgid "Log in and stay logged in"
+msgstr "Log in and stay logged in"
+
+msgid "Log in only this time"
+msgstr "Log in only this time"
+
+msgid "You are running the local mail adapter."
+msgstr "You are running the local mail adapter."
+
+msgid "To see sent emails, visit"
+msgstr "To see sent emails, visit"
+
+msgid "the mailbox page"
+msgstr "the mailbox page"
+
+msgid "If your email is in our system, you will receive instructions for logging in shortly."
+msgstr "If your email is in our system, you will receive instructions for logging in shortly."
+
+## Authentication - Registration
+msgid "Register for an account"
+msgstr "Register for an account"
+
+msgid "Already registered?"
+msgstr "Already registered?"
+
+msgid "to your account now."
+msgstr "to your account now."
+
+msgid "Create an account"
+msgstr "Create an account"
+
+msgid "An email was sent to %{email}, please access it to confirm your account."
+msgstr "An email was sent to %{email}, please access it to confirm your account."
+
+## Authentication - Settings
+msgid "Account Settings"
+msgstr "Account Settings"
+
+msgid "Manage your account email address and password settings"
+msgstr "Manage your account email address and password settings"
+
+msgid "Change Email"
+msgstr "Change Email"
+
+msgid "Changing..."
+msgstr "Changing..."
+
+msgid "New password"
+msgstr "New password"
+
+msgid "Confirm new password"
+msgstr "Confirm new password"
+
+msgid "Saving..."
+msgstr "Saving..."
+
+msgid "Save Password"
+msgstr "Save Password"
+
+msgid "Email changed successfully."
+msgstr "Email changed successfully."
+
+msgid "Email change link is invalid or it has expired."
+msgstr "Email change link is invalid or it has expired."
+
+msgid "A link to confirm your email change has been sent to the new address."
+msgstr "A link to confirm your email change has been sent to the new address."
+
+## Layout
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Log out"
+msgstr "Log out"
+
+msgid "Register"
+msgstr "Register"
+
+## Theme toggle
+msgid "System theme"
+msgstr "System theme"
+
+## Flash messages (already in layouts)
+msgid "We can't find the internet"
+msgstr "We can't find the internet"
+
+msgid "Attempting to reconnect"
+msgstr "Attempting to reconnect"
+
+msgid "Something went wrong!"
+msgstr "Something went wrong!"
+
+## Components
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Confirm"
+msgstr "Confirm"
+
+msgid "close"
+msgstr "close"
+
+msgid "Actions"
+msgstr "Actions"
+
+## Email templates
+msgid "Update email instructions"
+msgstr "Update email instructions"
+
+msgid "Hi %{email},"
+msgstr "Hi %{email},"
+
+msgid "You can change your email by visiting the URL below:"
+msgstr "You can change your email by visiting the URL below:"
+
+msgid "If you didn't request this change, please ignore this."
+msgstr "If you didn't request this change, please ignore this."
+
+msgid "Log in instructions"
+msgstr "Log in instructions"
+
+msgid "You can log into your account by visiting the URL below:"
+msgstr "You can log into your account by visiting the URL below:"
+
+msgid "If you didn't request this email, please ignore this."
+msgstr "If you didn't request this email, please ignore this."
+
+msgid "Confirmation instructions"
+msgstr "Confirmation instructions"
+
+msgid "You can confirm your account by visiting the URL below:"
+msgstr "You can confirm your account by visiting the URL below:"
+
+msgid "If you didn't create an account with us, please ignore this."
+msgstr "If you didn't create an account with us, please ignore this."

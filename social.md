@@ -59,9 +59,10 @@ collection of tools self-served by a modular ERP (Social ERP).
     - [x] define components to be used across the project
     - [x] Customize Phoenix Framework theme (colors defined by UX Design System)
     - [x] Create a landing page to show off the design system and test components
-  - [ ] Set up i18n
-    - [ ] Replace all hardcoded texts with gettext
-    - [ ] Add translations to `pt-br`
+  - [x] Set up i18n
+    - [x] Replace all hardcoded texts with gettext
+    - [x] Add translations to `pt-br`
+    - [x] `Accepted-Language` header detection for automatic language switching
   - [x] Set up maestro
 
 - [ ] Next steps
