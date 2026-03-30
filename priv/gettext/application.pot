@@ -281,3 +281,295 @@ msgstr ""
 
 msgid "If you didn't create an account with us, please ignore this."
 msgstr ""
+
+## Landing Page - New
+msgid "By TremTec"
+msgstr ""
+
+msgid "Transform How"
+msgstr ""
+
+msgid "You Impact Society"
+msgstr ""
+
+msgid "The complete platform for NGOs to manage volunteers, donations, and events—all in one powerful, intuitive solution."
+msgstr ""
+
+msgid "Explore Features"
+msgstr ""
+
+msgid "Organizations"
+msgstr ""
+
+msgid "Donations Managed"
+msgstr ""
+
+msgid "Trusted by leading organizations"
+msgstr ""
+
+msgid "NGO Brasil"
+msgstr ""
+
+msgid "Voluntários"
+msgstr ""
+
+msgid "DoeBem"
+msgstr ""
+
+msgid "Comunidade"
+msgstr ""
+
+msgid "Everything You Need to Make a Difference"
+msgstr ""
+
+msgid "Powerful tools designed specifically for social organizations. Focus on what matters most—making an impact."
+msgstr ""
+
+msgid "Activity tracking"
+msgstr ""
+
+msgid "Skill matching"
+msgstr ""
+
+msgid "Hours reporting"
+msgstr ""
+
+msgid "Easily register, organize, and track your volunteers. Schedule activities, assign tasks, and measure impact—all in one place."
+msgstr ""
+
+msgid "Real-time tracking"
+msgstr ""
+
+msgid "Donor management"
+msgstr ""
+
+msgid "Tax receipts"
+msgstr ""
+
+msgid "Manage financial and material donations with complete transparency. Generate reports and keep your donors informed."
+msgstr ""
+
+msgid "Event registration"
+msgstr ""
+
+msgid "Budget planning"
+msgstr ""
+
+msgid "Attendance tracking"
+msgstr ""
+
+msgid "Organize events and campaigns with powerful planning tools. Coordinate teams, manage budgets, and maximize attendance."
+msgstr ""
+
+msgid "Impact metrics"
+msgstr ""
+
+msgid "Custom reports"
+msgstr ""
+
+msgid "Export options"
+msgstr ""
+
+msgid "Get actionable insights with powerful analytics. Understand your impact and make data-driven decisions."
+msgstr ""
+
+msgid "Email & SMS"
+msgstr ""
+
+msgid "Scheduled reminders"
+msgstr ""
+
+msgid "Custom templates"
+msgstr ""
+
+msgid "Keep everyone informed with automated reminders and notifications. Never miss an important event or deadline."
+msgstr ""
+
+msgid "Data encryption"
+msgstr ""
+
+msgid "Role-based access"
+msgstr ""
+
+msgid "Audit logs"
+msgstr ""
+
+msgid "Your data is protected with enterprise-grade security. Full GDPR compliance and data encryption."
+msgstr ""
+
+msgid "Secure & Compliant"
+msgstr ""
+
+msgid "Automated Notifications"
+msgstr ""
+
+msgid "Analytics & Reports"
+msgstr ""
+
+msgid "Get Started in Minutes"
+msgstr ""
+
+msgid "Create Your Organization"
+msgstr ""
+
+msgid "Sign up and set up your organization's profile in just a few clicks."
+msgstr ""
+
+msgid "Invite Your Team"
+msgstr ""
+
+msgid "Add volunteers and team members with customizable access levels."
+msgstr ""
+
+msgid "Start Making Impact"
+msgstr ""
+
+msgid "Begin managing volunteers, donations, and events effectively."
+msgstr ""
+
+msgid "How It Works"
+msgstr ""
+
+msgid "Testimonials"
+msgstr ""
+
+msgid "Loved by Social Organizations"
+msgstr ""
+
+msgid "\"SocialTools transformed how we manage our 200+ volunteers. The transparency in donations has increased donor trust significantly.\""
+msgstr ""
+
+msgid "Maria Santos"
+msgstr ""
+
+msgid "Director, NGO Brasil"
+msgstr ""
+
+msgid "\"The event planning features saved us countless hours. Our last fundraiser was our most successful ever!\""
+msgstr ""
+
+msgid "João Silva"
+msgstr ""
+
+msgid "Coordinator, DoeBem"
+msgstr ""
+
+msgid "\"Finally, a tool that understands the unique needs of social organizations. Highly recommended!\""
+msgstr ""
+
+msgid "Ana Costa"
+msgstr ""
+
+msgid "Founder, Comunidade"
+msgstr ""
+
+msgid "Pricing"
+msgstr ""
+
+msgid "Simple, Transparent Pricing"
+msgstr ""
+
+msgid "Start free and scale as you grow. No hidden fees, cancel anytime."
+msgstr ""
+
+msgid "Starter"
+msgstr ""
+
+msgid "Free"
+msgstr ""
+
+msgid "Perfect for small organizations"
+msgstr ""
+
+msgid "Up to 50 volunteers"
+msgstr ""
+
+msgid "Basic analytics"
+msgstr ""
+
+msgid "Email support"
+msgstr ""
+
+msgid "Professional"
+msgstr ""
+
+msgid "For growing organizations"
+msgstr ""
+
+msgid "Unlimited volunteers"
+msgstr ""
+
+msgid "Advanced analytics"
+msgstr ""
+
+msgid "Priority support"
+msgstr ""
+
+msgid "Custom branding"
+msgstr ""
+
+msgid "Most Popular"
+msgstr ""
+
+msgid "Enterprise"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "For large organizations"
+msgstr ""
+
+msgid "Everything in Pro"
+msgstr ""
+
+msgid "Dedicated manager"
+msgstr ""
+
+msgid "Custom integrations"
+msgstr ""
+
+msgid "SLA guarantee"
+msgstr ""
+
+msgid "Ready to Amplify Your Impact?"
+msgstr ""
+
+msgid "Join 500+ organizations already making a difference with SocialTools. Start your free trial today."
+msgstr ""
+
+msgid "Start Free Trial"
+msgstr ""
+
+msgid "No credit card required. 14-day free trial."
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Integrations"
+msgstr ""
+
+msgid "API"
+msgstr ""
+
+msgid "Company"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Blog"
+msgstr ""
+
+msgid "Careers"
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+msgid "Contact Sales"
+msgstr ""
+
+msgid "The complete platform for NGOs to manage volunteers, donations, and events. Making social impact easier than ever."
+msgstr ""

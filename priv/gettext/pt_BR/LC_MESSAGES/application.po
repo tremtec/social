@@ -271,3 +271,295 @@ msgstr "Você pode confirmar sua conta visitando o URL abaixo:"
 
 msgid "If you didn't create an account with us, please ignore this."
 msgstr "Se você não criou uma conta conosco, por favor ignore isso."
+
+## Landing Page - New
+msgid "By TremTec"
+msgstr "Pela TremTec"
+
+msgid "Transform How"
+msgstr "Transforme Como"
+
+msgid "You Impact Society"
+msgstr "Você Impacta a Sociedade"
+
+msgid "The complete platform for NGOs to manage volunteers, donations, and events—all in one powerful, intuitive solution."
+msgstr "A plataforma completa para ONGs gerenciarem voluntários, doações e eventos—tudo em uma solução poderosa e intuitiva."
+
+msgid "Explore Features"
+msgstr "Explorar Funcionalidades"
+
+msgid "Organizations"
+msgstr "Organizações"
+
+msgid "Donations Managed"
+msgstr "Doações Gerenciadas"
+
+msgid "Trusted by leading organizations"
+msgstr "Confiado por organizações líderes"
+
+msgid "NGO Brasil"
+msgstr "ONG Brasil"
+
+msgid "Voluntários"
+msgstr "Voluntários"
+
+msgid "DoeBem"
+msgstr "DoeBem"
+
+msgid "Comunidade"
+msgstr "Comunidade"
+
+msgid "Everything You Need to Make a Difference"
+msgstr "Tudo Que Você Precisa Para Fazer a Diferença"
+
+msgid "Powerful tools designed specifically for social organizations. Focus on what matters most—making an impact."
+msgstr "Ferramentas poderosas projetadas especificamente para organizações sociais. Foque no que mais importa—fazer um impacto."
+
+msgid "Activity tracking"
+msgstr "Rastreamento de atividades"
+
+msgid "Skill matching"
+msgstr "Correspondência de habilidades"
+
+msgid "Hours reporting"
+msgstr "Relatório de horas"
+
+msgid "Easily register, organize, and track your volunteers. Schedule activities, assign tasks, and measure impact—all in one place."
+msgstr "Cadastre, organize e acompanhe facilmente seus voluntários. Agende atividades, atribua tarefas e mensure impacto—tudo em um só lugar."
+
+msgid "Real-time tracking"
+msgstr "Rastreamento em tempo real"
+
+msgid "Donor management"
+msgstr "Gestão de doadores"
+
+msgid "Tax receipts"
+msgstr "Recibos fiscais"
+
+msgid "Manage financial and material donations with complete transparency. Generate reports and keep your donors informed."
+msgstr "Gerencie doações financeiras e materiais com total transparência. Gere relatórios e mantenha seus doadores informados."
+
+msgid "Event registration"
+msgstr "Cadastro de eventos"
+
+msgid "Budget planning"
+msgstr "Planejamento de orçamento"
+
+msgid "Attendance tracking"
+msgstr "Rastreamento de presença"
+
+msgid "Organize events and campaigns with powerful planning tools. Coordinate teams, manage budgets, and maximize attendance."
+msgstr "Organize eventos e campanhas com poderosas ferramentas de planejamento. Coordene equipes, gerencie orçamentos e maximize a participação."
+
+msgid "Impact metrics"
+msgstr "Métricas de impacto"
+
+msgid "Custom reports"
+msgstr "Relatórios personalizados"
+
+msgid "Export options"
+msgstr "Opções de exportação"
+
+msgid "Get actionable insights with powerful analytics. Understand your impact and make data-driven decisions."
+msgstr "Obtenha insights acionáveis com análises poderosas. Entenda seu impacto e tome decisões baseadas em dados."
+
+msgid "Email & SMS"
+msgstr "E-mail e SMS"
+
+msgid "Scheduled reminders"
+msgstr "Lembretes programados"
+
+msgid "Custom templates"
+msgstr "Modelos personalizados"
+
+msgid "Keep everyone informed with automated reminders and notifications. Never miss an important event or deadline."
+msgstr "Mantenha todos informados com lembretes e notificações automatizadas. Nunca perca um evento ou prazo importante."
+
+msgid "Data encryption"
+msgstr "Criptografia de dados"
+
+msgid "Role-based access"
+msgstr "Acesso baseado em funções"
+
+msgid "Audit logs"
+msgstr "Logs de auditoria"
+
+msgid "Your data is protected with enterprise-grade security. Full GDPR compliance and data encryption."
+msgstr "Seus dados são protegidos com segurança de nível empresarial. Conformidade total com LGPD e criptografia de dados."
+
+msgid "Secure & Compliant"
+msgstr "Seguro e Conformidade"
+
+msgid "Automated Notifications"
+msgstr "Notificações Automatizadas"
+
+msgid "Analytics & Reports"
+msgstr "Análises e Relatórios"
+
+msgid "Get Started in Minutes"
+msgstr "Comece em Minutos"
+
+msgid "Create Your Organization"
+msgstr "Crie Sua Organização"
+
+msgid "Sign up and set up your organization's profile in just a few clicks."
+msgstr "Cadastre-se e configure o perfil da sua organização em apenas alguns cliques."
+
+msgid "Invite Your Team"
+msgstr "Convide Sua Equipe"
+
+msgid "Add volunteers and team members with customizable access levels."
+msgstr "Adicione voluntários e membros da equipe com níveis de acesso personalizáveis."
+
+msgid "Start Making Impact"
+msgstr "Comece a Fazer Impacto"
+
+msgid "Begin managing volunteers, donations, and events effectively."
+msgstr "Comece a gerenciar voluntários, doações e eventos de forma eficaz."
+
+msgid "How It Works"
+msgstr "Como Funciona"
+
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+msgid "Loved by Social Organizations"
+msgstr "Amado por Organizações Sociais"
+
+msgid "\"SocialTools transformed how we manage our 200+ volunteers. The transparency in donations has increased donor trust significantly.\""
+msgstr "\"O SocialTools transformou a forma como gerenciamos nossos mais de 200 voluntários. A transparência nas doações aumentou significativamente a confiança dos doadores.\""
+
+msgid "Maria Santos"
+msgstr "Maria Santos"
+
+msgid "Director, NGO Brasil"
+msgstr "Diretora, ONG Brasil"
+
+msgid "\"The event planning features saved us countless hours. Our last fundraiser was our most successful ever!\""
+msgstr "\"As funcionalidades de planejamento de eventos nos economizaram inúmeras horas. Nossa última campanha de arrecadação foi a mais bem-sucedida de todas!\""
+
+msgid "João Silva"
+msgstr "João Silva"
+
+msgid "Coordinator, DoeBem"
+msgstr "Coordenador, DoeBem"
+
+msgid "\"Finally, a tool that understands the unique needs of social organizations. Highly recommended!\""
+msgstr "\"Finalmente, uma ferramenta que entende as necessidades únicas das organizações sociais. Altamente recomendado!\""
+
+msgid "Ana Costa"
+msgstr "Ana Costa"
+
+msgid "Founder, Comunidade"
+msgstr "Fundadora, Comunidade"
+
+msgid "Pricing"
+msgstr "Preços"
+
+msgid "Simple, Transparent Pricing"
+msgstr "Preços Simples e Transparentes"
+
+msgid "Start free and scale as you grow. No hidden fees, cancel anytime."
+msgstr "Comece gratis e escale conforme cresce. Sem taxas ocultas, cancele a qualquer momento."
+
+msgid "Starter"
+msgstr "Iniciante"
+
+msgid "Free"
+msgstr "Grátis"
+
+msgid "Perfect for small organizations"
+msgstr "Perfeito para pequenas organizações"
+
+msgid "Up to 50 volunteers"
+msgstr "Até 50 voluntários"
+
+msgid "Basic analytics"
+msgstr "Análises básicas"
+
+msgid "Email support"
+msgstr "Suporte por e-mail"
+
+msgid "Professional"
+msgstr "Profissional"
+
+msgid "For growing organizations"
+msgstr "Para organizações em crescimento"
+
+msgid "Unlimited volunteers"
+msgstr "Voluntários ilimitados"
+
+msgid "Advanced analytics"
+msgstr "Análises avançadas"
+
+msgid "Priority support"
+msgstr "Suporte prioritário"
+
+msgid "Custom branding"
+msgstr "Marca personalizada"
+
+msgid "Most Popular"
+msgstr "Mais Popular"
+
+msgid "Enterprise"
+msgstr "Enterprise"
+
+msgid "Custom"
+msgstr "Personalizado"
+
+msgid "For large organizations"
+msgstr "Para grandes organizações"
+
+msgid "Everything in Pro"
+msgstr "Tudo no Profissional"
+
+msgid "Dedicated manager"
+msgstr "Gerente dedicado"
+
+msgid "Custom integrations"
+msgstr "Integrações personalizadas"
+
+msgid "SLA guarantee"
+msgstr "Garantia de SLA"
+
+msgid "Ready to Amplify Your Impact?"
+msgstr "Pronto para Amplificar Seu Impacto?"
+
+msgid "Join 500+ organizations already making a difference with SocialTools. Start your free trial today."
+msgstr "Junte-se a mais de 500 organizações que já fazem a diferença com SocialTools. Comece seu teste gratuito hoje."
+
+msgid "Start Free Trial"
+msgstr "Começar Teste Grátis"
+
+msgid "No credit card required. 14-day free trial."
+msgstr "Sem cartão de crédito. Teste gratuito de 14 dias."
+
+msgid "Product"
+msgstr "Produto"
+
+msgid "Integrations"
+msgstr "Integrações"
+
+msgid "API"
+msgstr "API"
+
+msgid "Company"
+msgstr "Empresa"
+
+msgid "About"
+msgstr "Sobre"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Careers"
+msgstr "Carreiras"
+
+msgid "Contact"
+msgstr "Contato"
+
+msgid "Contact Sales"
+msgstr "Falar com Vendas"
+
+msgid "The complete platform for NGOs to manage volunteers, donations, and events. Making social impact easier than ever."
+msgstr "A plataforma completa para ONGs gerenciarem voluntários, doações e eventos. Tornando o impacto social mais fácil do que nunca."

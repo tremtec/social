@@ -35,6 +35,8 @@ defmodule SocialWeb.Plugs.Locale do
     |> get_supported_locale()
   end
 
+  defp parse_accept_language([]), do: "en"
+
   defp parse_accept_language([header | _]) do
     header
     |> String.split(",")

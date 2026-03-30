@@ -51,7 +51,7 @@ collection of tools self-served by a modular ERP (Social ERP).
 
 ## Roadmap
 
-- [ ] Groundwork
+- [x] Groundwork
   - [x] Set up Phoenix Project w/: Auth, SQLite, tailwindcss + DaisyUI
     - [x] Generate phoenix project with `mix phx.new social --live --database sqlite`
     - [x] Generate auth with `mix phx.gen.auth Accounts User users --binary-id --hashing-lib bcrypt`
@@ -64,6 +64,8 @@ collection of tools self-served by a modular ERP (Social ERP).
     - [x] Add translations to `pt-br`
     - [x] `Accepted-Language` header detection for automatic language switching
   - [x] Set up maestro
+  - [x] Set initial landing page
 
 - [ ] Next steps
   - Workflow: Org onboarding
+  - Workflow: Admin onboarding

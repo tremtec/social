@@ -26,16 +26,6 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:168
-#, elixir-autogen, elixir-format
-msgid "Add"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:146
-#, elixir-autogen, elixir-format
-msgid "Alerts"
-msgstr ""
-
 #: lib/social_web/live/user_live/registration.ex:17
 #, elixir-autogen, elixir-format
 msgid "Already registered?"
@@ -50,26 +40,6 @@ msgstr ""
 #: lib/social_web/components/layouts.ex:118
 #, elixir-autogen, elixir-format
 msgid "Attempting to reconnect"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:150
-#, elixir-autogen, elixir-format
-msgid "Attention!"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:106
-#, elixir-autogen, elixir-format
-msgid "Avatars"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:91
-#, elixir-autogen, elixir-format
-msgid "Badges"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:74
-#, elixir-autogen, elixir-format
-msgid "Buttons"
 msgstr ""
 
 #: lib/social_web/components/social_components.ex:489
@@ -87,11 +57,6 @@ msgstr ""
 msgid "Changing..."
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:40
-#, elixir-autogen, elixir-format
-msgid "Complete platform for managing NGOs, volunteers, donations and social events. Simplify your operations with humanized technology."
-msgstr ""
-
 #: lib/social_web/components/social_components.ex:500
 #, elixir-autogen, elixir-format
 msgid "Confirm"
@@ -107,11 +72,6 @@ msgstr ""
 msgid "Confirmation instructions"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:249
-#, elixir-autogen, elixir-format
-msgid "Create Free Account"
-msgstr ""
-
 #: lib/social_web/live/user_live/registration.ex:38
 #, elixir-autogen, elixir-format
 msgid "Create an account"
@@ -122,24 +82,14 @@ msgstr ""
 msgid "Creating account..."
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:61
-#, elixir-autogen, elixir-format
-msgid "Design System"
-msgstr ""
-
 #: lib/social_web/live/user_live/login.ex:19
 #, elixir-autogen, elixir-format
 msgid "Don't have an account? Sign up"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:210
+#: lib/social_web/live/page_live.ex:173
 #, elixir-autogen, elixir-format
 msgid "Donation Control"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:134
-#, elixir-autogen, elixir-format
-msgid "Donations"
 msgstr ""
 
 #: lib/social_web/live/user_live/login.ex:50
@@ -160,27 +110,18 @@ msgstr ""
 msgid "Email changed successfully."
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:159
-#, elixir-autogen, elixir-format
-msgid "Empty State"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:224
+#: lib/social_web/live/page_live.ex:208
 #, elixir-autogen, elixir-format
 msgid "Event Planning"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:183
-#, elixir-autogen, elixir-format
-msgid "Everything you need to manage your social organization."
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:181
+#: lib/social_web/live/page_live.ex:117
+#: lib/social_web/live/page_live.ex:640
 #, elixir-autogen, elixir-format
 msgid "Features"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:47
+#: lib/social_web/live/page_live.ex:506
 #, elixir-autogen, elixir-format
 msgid "Get Started"
 msgstr ""
@@ -210,16 +151,6 @@ msgstr ""
 #: lib/social_web/live/user_live/login.ex:124
 #, elixir-autogen, elixir-format
 msgid "If your email is in our system, you will receive instructions for logging in shortly."
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:36
-#, elixir-autogen, elixir-format
-msgid "Intelligent Social Management"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:243
-#, elixir-autogen, elixir-format
-msgid "Join hundreds of organizations that already use Social Tools to make a difference in society."
 msgstr ""
 
 #: lib/social_web/components/layouts.ex:67
@@ -254,11 +185,6 @@ msgstr ""
 msgid "Log out"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:213
-#, elixir-autogen, elixir-format
-msgid "Manage financial and material donations with total transparency."
-msgstr ""
-
 #: lib/social_web/live/user_live/settings.ex:16
 #, elixir-autogen, elixir-format
 msgid "Manage your account email address and password settings"
@@ -269,29 +195,9 @@ msgstr ""
 msgid "New password"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:162
-#, elixir-autogen, elixir-format
-msgid "No volunteers found"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:148
-#, elixir-autogen, elixir-format
-msgid "Operation completed successfully."
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:227
-#, elixir-autogen, elixir-format
-msgid "Organize events and campaigns with integrated planning tools."
-msgstr ""
-
 #: lib/social_web/live/user_live/login.ex:83
 #, elixir-autogen, elixir-format
 msgid "Password"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:240
-#, elixir-autogen, elixir-format
-msgid "Ready to transform your social management?"
 msgstr ""
 
 #: lib/social_web/components/layouts.ex:64
@@ -302,16 +208,6 @@ msgstr ""
 #: lib/social_web/live/user_live/registration.ex:15
 #, elixir-autogen, elixir-format
 msgid "Register for an account"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:197
-#, elixir-autogen, elixir-format
-msgid "Register, organize and track activities of volunteers in your organization."
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:63
-#, elixir-autogen, elixir-format
-msgid "Reusable components built with Tailwind CSS and DaisyUI, with warm colors inspired by Brazilian culture."
 msgstr ""
 
 #: lib/social_web/live/user_live/settings.ex:68
@@ -339,30 +235,9 @@ msgstr ""
 msgid "Social Tools"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:32
-#: lib/social_web/live/page_live.ex:266
-#, elixir-autogen, elixir-format
-msgid "Social Tools by TremTec"
-msgstr ""
-
 #: lib/social_web/components/layouts.ex:113
 #, elixir-autogen, elixir-format
 msgid "Something went wrong!"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:164
-#, elixir-autogen, elixir-format
-msgid "Start by registering new volunteers for your organization."
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:125
-#, elixir-autogen, elixir-format
-msgid "Stats"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:147
-#, elixir-autogen, elixir-format
-msgid "Success!"
 msgstr ""
 
 #: lib/social_web/components/layouts.ex:137
@@ -370,7 +245,7 @@ msgstr ""
 msgid "System theme"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:252
+#: lib/social_web/live/page_live.ex:609
 #, elixir-autogen, elixir-format
 msgid "Talk to Consultant"
 msgstr ""
@@ -385,24 +260,14 @@ msgstr ""
 msgid "Update email instructions"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:151
-#, elixir-autogen, elixir-format
-msgid "Verify the data before continuing."
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:194
+#: lib/social_web/live/page_live.ex:138
 #, elixir-autogen, elixir-format
 msgid "Volunteer Management"
 msgstr ""
 
-#: lib/social_web/live/page_live.ex:128
+#: lib/social_web/live/page_live.ex:74
 #, elixir-autogen, elixir-format
 msgid "Volunteers"
-msgstr ""
-
-#: lib/social_web/live/page_live.ex:50
-#, elixir-autogen, elixir-format
-msgid "Watch Demo"
 msgstr ""
 
 #: lib/social_web/components/layouts.ex:101
@@ -458,4 +323,497 @@ msgstr ""
 #: lib/social_web/live/user_live/registration.ex:21
 #, elixir-autogen, elixir-format
 msgid "to your account now."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:451
+#, elixir-autogen, elixir-format
+msgid "\"Finally, a tool that understands the unique needs of social organizations. Highly recommended!\""
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:415
+#, elixir-autogen, elixir-format
+msgid "\"SocialTools transformed how we manage our 200+ volunteers. The transparency in donations has increased donor trust significantly.\""
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:433
+#, elixir-autogen, elixir-format
+msgid "\"The event planning features saved us countless hours. Our last fundraiser was our most successful ever!\""
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:652
+#, elixir-autogen, elixir-format
+msgid "API"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:660
+#, elixir-autogen, elixir-format
+msgid "About"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:147
+#, elixir-autogen, elixir-format
+msgid "Activity tracking"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:377
+#, elixir-autogen, elixir-format
+msgid "Add volunteers and team members with customizable access levels."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:532
+#, elixir-autogen, elixir-format
+msgid "Advanced analytics"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:458
+#, elixir-autogen, elixir-format
+msgid "Ana Costa"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:243
+#, elixir-autogen, elixir-format
+msgid "Analytics & Reports"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:227
+#, elixir-autogen, elixir-format
+msgid "Attendance tracking"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:330
+#, elixir-autogen, elixir-format
+msgid "Audit logs"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:278
+#, elixir-autogen, elixir-format
+msgid "Automated Notifications"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:497
+#, elixir-autogen, elixir-format
+msgid "Basic analytics"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:390
+#, elixir-autogen, elixir-format
+msgid "Begin managing volunteers, donations, and events effectively."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:663
+#, elixir-autogen, elixir-format
+msgid "Blog"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:222
+#, elixir-autogen, elixir-format
+msgid "Budget planning"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:35
+#, elixir-autogen, elixir-format
+msgid "By TremTec"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:666
+#, elixir-autogen, elixir-format
+msgid "Careers"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:657
+#, elixir-autogen, elixir-format
+msgid "Company"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:106
+#, elixir-autogen, elixir-format
+msgid "Comunidade"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:669
+#, elixir-autogen, elixir-format
+msgid "Contact"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:578
+#, elixir-autogen, elixir-format
+msgid "Contact Sales"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:441
+#, elixir-autogen, elixir-format
+msgid "Coordinator, DoeBem"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:361
+#, elixir-autogen, elixir-format
+msgid "Create Your Organization"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:555
+#, elixir-autogen, elixir-format
+msgid "Custom"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:542
+#, elixir-autogen, elixir-format
+msgid "Custom branding"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:569
+#, elixir-autogen, elixir-format
+msgid "Custom integrations"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:257
+#, elixir-autogen, elixir-format
+msgid "Custom reports"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:295
+#, elixir-autogen, elixir-format
+msgid "Custom templates"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:320
+#, elixir-autogen, elixir-format
+msgid "Data encryption"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:564
+#, elixir-autogen, elixir-format
+msgid "Dedicated manager"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:423
+#, elixir-autogen, elixir-format
+msgid "Director, NGO Brasil"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:102
+#, elixir-autogen, elixir-format
+msgid "DoeBem"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:78
+#, elixir-autogen, elixir-format
+msgid "Donations Managed"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:187
+#, elixir-autogen, elixir-format
+msgid "Donor management"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:141
+#, elixir-autogen, elixir-format
+msgid "Easily register, organize, and track your volunteers. Schedule activities, assign tasks, and measure impact—all in one place."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:287
+#, elixir-autogen, elixir-format
+msgid "Email & SMS"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:502
+#, elixir-autogen, elixir-format
+msgid "Email support"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:554
+#, elixir-autogen, elixir-format
+msgid "Enterprise"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:217
+#, elixir-autogen, elixir-format
+msgid "Event registration"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:120
+#, elixir-autogen, elixir-format
+msgid "Everything You Need to Make a Difference"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:559
+#, elixir-autogen, elixir-format
+msgid "Everything in Pro"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:62
+#, elixir-autogen, elixir-format
+msgid "Explore Features"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:262
+#, elixir-autogen, elixir-format
+msgid "Export options"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:523
+#, elixir-autogen, elixir-format
+msgid "For growing organizations"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:556
+#, elixir-autogen, elixir-format
+msgid "For large organizations"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:459
+#, elixir-autogen, elixir-format
+msgid "Founder, Comunidade"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:486
+#, elixir-autogen, elixir-format
+msgid "Free"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:347
+#, elixir-autogen, elixir-format
+msgid "Get Started in Minutes"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:246
+#, elixir-autogen, elixir-format
+msgid "Get actionable insights with powerful analytics. Understand your impact and make data-driven decisions."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:157
+#, elixir-autogen, elixir-format
+msgid "Hours reporting"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:344
+#, elixir-autogen, elixir-format
+msgid "How It Works"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:252
+#, elixir-autogen, elixir-format
+msgid "Impact metrics"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:648
+#, elixir-autogen, elixir-format
+msgid "Integrations"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:374
+#, elixir-autogen, elixir-format
+msgid "Invite Your Team"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:595
+#, elixir-autogen, elixir-format
+msgid "Join 500+ organizations already making a difference with SocialTools. Start your free trial today."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:440
+#, elixir-autogen, elixir-format
+msgid "João Silva"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:281
+#, elixir-autogen, elixir-format
+msgid "Keep everyone informed with automated reminders and notifications. Never miss an important event or deadline."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:405
+#, elixir-autogen, elixir-format
+msgid "Loved by Social Organizations"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:176
+#, elixir-autogen, elixir-format
+msgid "Manage financial and material donations with complete transparency. Generate reports and keep your donors informed."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:422
+#, elixir-autogen, elixir-format
+msgid "Maria Santos"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:516
+#, elixir-autogen, elixir-format
+msgid "Most Popular"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:94
+#, elixir-autogen, elixir-format
+msgid "NGO Brasil"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:613
+#, elixir-autogen, elixir-format
+msgid "No credit card required. 14-day free trial."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:70
+#, elixir-autogen, elixir-format
+msgid "Organizations"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:211
+#, elixir-autogen, elixir-format
+msgid "Organize events and campaigns with powerful planning tools. Coordinate teams, manage budgets, and maximize attendance."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:488
+#, elixir-autogen, elixir-format
+msgid "Perfect for small organizations"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:123
+#, elixir-autogen, elixir-format
+msgid "Powerful tools designed specifically for social organizations. Focus on what matters most—making an impact."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:472
+#: lib/social_web/live/page_live.ex:644
+#, elixir-autogen, elixir-format
+msgid "Pricing"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:537
+#, elixir-autogen, elixir-format
+msgid "Priority support"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:636
+#, elixir-autogen, elixir-format
+msgid "Product"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:518
+#, elixir-autogen, elixir-format
+msgid "Professional"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:592
+#, elixir-autogen, elixir-format
+msgid "Ready to Amplify Your Impact?"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:182
+#, elixir-autogen, elixir-format
+msgid "Real-time tracking"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:325
+#, elixir-autogen, elixir-format
+msgid "Role-based access"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:574
+#, elixir-autogen, elixir-format
+msgid "SLA guarantee"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:290
+#, elixir-autogen, elixir-format
+msgid "Scheduled reminders"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:311
+#, elixir-autogen, elixir-format
+msgid "Secure & Compliant"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:364
+#, elixir-autogen, elixir-format
+msgid "Sign up and set up your organization's profile in just a few clicks."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:475
+#, elixir-autogen, elixir-format
+msgid "Simple, Transparent Pricing"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:152
+#, elixir-autogen, elixir-format
+msgid "Skill matching"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:677
+#, elixir-autogen, elixir-format
+msgid "SocialTools by TremTec"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:58
+#: lib/social_web/live/page_live.ex:548
+#: lib/social_web/live/page_live.ex:605
+#, elixir-autogen, elixir-format
+msgid "Start Free Trial"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:387
+#, elixir-autogen, elixir-format
+msgid "Start Making Impact"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:478
+#, elixir-autogen, elixir-format
+msgid "Start free and scale as you grow. No hidden fees, cancel anytime."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:485
+#, elixir-autogen, elixir-format
+msgid "Starter"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:192
+#, elixir-autogen, elixir-format
+msgid "Tax receipts"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:402
+#, elixir-autogen, elixir-format
+msgid "Testimonials"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:630
+#, elixir-autogen, elixir-format
+msgid "The complete platform for NGOs to manage volunteers, donations, and events. Making social impact easier than ever."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:47
+#, elixir-autogen, elixir-format
+msgid "The complete platform for NGOs to manage volunteers, donations, and events—all in one powerful, intuitive solution."
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:40
+#, elixir-autogen, elixir-format
+msgid "Transform How"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:89
+#, elixir-autogen, elixir-format
+msgid "Trusted by leading organizations"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:527
+#, elixir-autogen, elixir-format
+msgid "Unlimited volunteers"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:492
+#, elixir-autogen, elixir-format
+msgid "Up to 50 volunteers"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:98
+#, elixir-autogen, elixir-format
+msgid "Voluntários"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:42
+#, elixir-autogen, elixir-format
+msgid "You Impact Society"
+msgstr ""
+
+#: lib/social_web/live/page_live.ex:314
+#, elixir-autogen, elixir-format
+msgid "Your data is protected with enterprise-grade security. Full GDPR compliance and data encryption."
 msgstr ""
