@@ -66,6 +66,20 @@ collection of tools self-served by a modular ERP (Social ERP).
   - [x] Set up maestro
   - [x] Set initial landing page
 
+- [ ] Workflow: Org onboarding
+  - [ ] UX: app will be placed at `/:org_slug/*` and users will be able to switch between organizations they are part of
+    - [ ] UX: Page should have a breadcrumb with the organization name and a dropdown to switch between organizations
+    - [ ] UX: Af the end of the breadcrumb, there should be a button to create a new entry (contextual to the open page)
+  - [ ] Data: Users has organizations, organizations has users (many to many)
+  - [ ] Usecase: If the user is not assigned to any oorganization yet:
+    - [ ] Show a welcome page with a call to action to create or join an organization
+    - [ ] Allow joining an existing organization with an invite code
+    - [ ] Allow creating a new organization
+    - [ ] After joining or creating an organization, redirect to the organization's dashboard
+  - [ ] Usecase: If the user is ember of any orgainization:
+    - [ ] Show a list of organizations to choose from
+    - [ ] Allow creating a new organization
+  - [ ] ...
+
 - [ ] Next steps
-  - Workflow: Org onboarding
   - Workflow: Admin onboarding
