@@ -70,7 +70,7 @@ collection of tools self-served by a modular ERP (Social ERP).
   - [ ] UX: app will be placed at `/:org_slug/*` and users will be able to switch between organizations they are part of
     - [ ] UX: Page should have a breadcrumb with the organization name and a dropdown to switch between organizations
     - [ ] UX: Af the end of the breadcrumb, there should be a button to create a new entry (contextual to the open page)
-  - [ ] Data: Users has organizations, organizations has users (many to many)
+  - [x] Data: Users has organizations, organizations has users (many to many)
   - [ ] Usecase: If the user is not assigned to any oorganization yet:
     - [ ] Show a welcome page with a call to action to create or join an organization
     - [ ] Allow joining an existing organization with an invite code
