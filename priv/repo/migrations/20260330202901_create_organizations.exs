@@ -3,7 +3,7 @@ defmodule Social.Repo.Migrations.CreateOrganizations do
 
   def change do
     create table(:organizations) do
-      add :username, :string
+      add :slug, :string
       add :name, :string
       add :cnpj, :string
       add :description, :string
@@ -17,6 +17,6 @@ defmodule Social.Repo.Migrations.CreateOrganizations do
     create index(:organizations, [:user_id])
 
     create unique_index(:organizations, [:cnpj])
-    create unique_index(:organizations, [:username])
+    create unique_index(:organizations, [:slug])
   end
 end

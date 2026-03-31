@@ -12,6 +12,9 @@ defmodule Social.Accounts.User do
     field :authenticated_at, :utc_datetime, virtual: true
 
     timestamps(type: :utc_datetime)
+
+    many_to_many :organizations, Social.Organizations.Organization,
+      join_through: Social.Organizations.OrganizationUser
   end
 
   @doc """
