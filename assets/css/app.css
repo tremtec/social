@@ -151,4 +151,9 @@
   animation: fade-in-up 0.6s ease-out forwards;
 }
 
-/* This file is for your main application CSS */
+/* Logo visibility in dark mode */
+@media (prefers-color-scheme: dark) {
+  img[alt*="Logo"] {
+    filter: invert(1) brightness(1.1);
+  }
+}

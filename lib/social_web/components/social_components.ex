@@ -89,6 +89,64 @@ defmodule SocialWeb.SocialComponents do
   end
 
   @doc """
+  Renders the SocialTools logo.
+
+  A clean, minimalist logo showing three connected nodes in a horizontal line,
+  representing organizations, volunteers, and donors working together.
+
+  ## Attributes
+  - `size` - Logo size: "sm" | "md" | "lg" | "xl" (default: "md")
+  - `class` - Additional CSS classes
+
+  ## Examples
+
+      <.logo />                          # Default medium size
+      <.logo size="lg" />                # Large logo
+      <.logo size="sm" class="opacity-50" />  # Small with custom class
+  """
+  attr :size, :string, values: ["sm", "md", "lg", "xl"], default: "md"
+  attr :class, :any, default: nil
+
+  def logo(assigns) do
+    size_classes = %{
+      "sm" => "w-6 h-4",
+      "md" => "w-9 h-6",
+      "lg" => "w-10 h-7",
+      "xl" => "w-12 h-8"
+    }
+
+    assigns = assign(assigns, :size_class, size_classes[assigns[:size] || "md"])
+
+    ~H"""
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 48 32"
+      class={[@size_class, @class]}
+      aria-hidden="true"
+      fill="currentColor"
+    >
+      <circle cx="10" cy="16" r="5" class="logo-secondary" />
+      <circle cx="24" cy="16" r="7" class="logo-primary" />
+      <circle cx="38" cy="16" r="5" class="logo-secondary" />
+      <path
+        d="M15 16 L17 16"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        class="logo-stroke"
+      />
+      <path
+        d="M31 16 L33 16"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        class="logo-stroke"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Card component with optional glass effect and hover animation.
 
   ## Options
