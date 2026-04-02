@@ -13,8 +13,6 @@ defmodule SocialWeb.Hooks.Locale do
   def on_mount(:set_locale, _params, %{"locale" => locale}, socket) do
     Gettext.put_locale(SocialWeb.Gettext, locale)
 
-    IO.puts("LiveView set locale: #{locale}")
-
     {:cont, assign(socket, :locale, locale)}
   end
 

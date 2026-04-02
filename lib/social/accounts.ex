@@ -281,6 +281,25 @@ defmodule Social.Accounts do
     :ok
   end
 
+  @doc """
+  Checks if a user has any organizations associated.
+  """
+  def user_has_organizations?(%User{} = user) do
+    user
+    |> Repo.preload(:organizations)
+    |> Map.get(:organizations)
+    |> Enum.any?()
+  end
+
+  @doc """
+  Returns the organizations associated with a user.
+  """
+  def user_organizations(%User{} = user) do
+    user
+    |> Repo.preload(:organizations)
+    |> Map.get(:organizations)
+  end
+
   ## Token helper
 
   defp update_user_and_delete_all_tokens(changeset) do

@@ -13,8 +13,7 @@ defmodule Social.Organizations.Organization do
     field :mission, :string
     field :founding_date, :date
 
-    many_to_many :users, Social.Accounts.User,
-      join_through: Social.Organizations.OrganizationUser
+    many_to_many :users, Social.Accounts.User, join_through: Social.Organizations.OrganizationUser
 
     timestamps(type: :utc_datetime)
   end

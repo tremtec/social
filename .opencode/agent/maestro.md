@@ -9,8 +9,7 @@ tools:
   edit: false
 permission:
   bash:
-    "make *": allow
-    "*": ask
+    "*": allow
 ---
 
 # Maestro Orchestrator

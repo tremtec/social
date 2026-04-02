@@ -20,8 +20,6 @@ defmodule SocialWeb.Plugs.Locale do
     # Always set Gettext locale and assign to conn
     Gettext.put_locale(SocialWeb.Gettext, locale)
 
-    IO.puts("Detected HTML: #{locale}")
-
     conn
     |> assign(:locale, locale)
     |> put_session("locale", locale)
