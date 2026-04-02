@@ -300,6 +300,19 @@ defmodule Social.Accounts do
     |> Map.get(:organizations)
   end
 
+  @doc """
+  Returns the path where a user should be redirected based on their organization state.
+
+  - If user has no organizations -> "/onboarding"
+  - If user has organizations -> "/organizations"
+  """
+  def organization_redirect_path(%User{} = user) do
+    case user_organizations(user) do
+      [] -> "/onboarding"
+      _ -> "/organizations"
+    end
+  end
+
   ## Token helper
 
   defp update_user_and_delete_all_tokens(changeset) do

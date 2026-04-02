@@ -9,7 +9,7 @@ defmodule SocialWeb.UserLive.LoginTest do
       {:ok, _lv, html} = live(conn, ~p"/users/log-in")
 
       assert html =~ "Log in"
-      assert html =~ "Register"
+      assert html =~ "Join Us"
       assert html =~ "Log in with email"
     end
   end
@@ -56,7 +56,7 @@ defmodule SocialWeb.UserLive.LoginTest do
 
       conn = submit_form(form, conn)
 
-      assert redirected_to(conn) == ~p"/"
+      assert redirected_to(conn) == ~p"/onboarding"
     end
 
     test "redirects to login page with a flash error if credentials are invalid", %{

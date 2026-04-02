@@ -623,8 +623,8 @@ defmodule SocialWeb.PageLive do
           <div class="mx-auto max-w-6xl">
             <div class="grid md:grid-cols-4 gap-8 mb-8">
               <div class="md:col-span-2">
-                <div class="flex items-center gap-3 mb-4">
-                  <img src={~p"/images/logo.svg"} width="40" />
+                <div class="flex items-center gap-3 mb-4 text-[currentColor]">
+                  <.logo size="lg" />
                   <span class="text-lg font-bold text-base-content">SocialTools</span>
                 </div>
                 <p class="text-base-content/60 max-w-sm">

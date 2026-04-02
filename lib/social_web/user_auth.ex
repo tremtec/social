@@ -37,7 +37,7 @@ defmodule SocialWeb.UserAuth do
 
     conn
     |> create_or_extend_session(user, params)
-    |> redirect(to: user_return_to || signed_in_path(conn))
+    |> redirect(to: user_return_to || signed_in_path(user))
   end
 
   @doc """
@@ -132,7 +132,6 @@ defmodule SocialWeb.UserAuth do
   #
   #     defp renew_session(conn, _user) do
   #       delete_csrf_token()
-  #       preferred_locale = get_session(conn, :preferred_locale)
   #
   #       conn
   #       |> configure_session(renew: true)
@@ -256,13 +255,36 @@ defmodule SocialWeb.UserAuth do
     end)
   end
 
-  @doc "Returns the path to redirect to after log in."
-  # the user was already logged in, redirect to settings
-  def signed_in_path(%Plug.Conn{assigns: %{current_scope: %Scope{user: %Accounts.User{}}}}) do
-    ~p"/users/settings"
+  @doc """
+  Returns the path to redirect to after log in.
+
+  Can be called with either a User struct or a Plug.Conn.
+  When called with a User, it checks the user's organizations and redirects:
+  - No organizations → /onboarding
+  - One organization → /organization/:slug
+  - Multiple organizations → /select-organization
+
+  When called with a Conn, it extracts the user from conn.assigns.current_scope.
+  """
+  def signed_in_path(%Accounts.User{} = user) do
+    organizations = Accounts.user_organizations(user)
+
+    cond do
+      Enum.empty?(organizations) -> ~p"/onboarding"
+      length(organizations) == 1 -> ~p"/organizations/#{List.first(organizations).slug}"
+      true -> ~p"/organizations"
+    end
   end
 
-  def signed_in_path(_), do: ~p"/"
+  def signed_in_path(conn) do
+    case conn.assigns do
+      %{current_scope: %{user: user}} when not is_nil(user) ->
+        signed_in_path(user)
+
+      _ ->
+        ~p"/"
+    end
+  end
 
   @doc """
   Plug for routes that require the user to be authenticated.

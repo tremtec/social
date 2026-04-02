@@ -14,6 +14,11 @@ defmodule SocialWeb.Router do
     plug :put_root_layout, html: {SocialWeb.Layouts, :root}
   end
 
+  # Pipeline for routes that require an organization
+  pipeline :org_required do
+    plug SocialWeb.Plugs.RequireOrganization
+  end
+
   pipeline :api do
     plug :accepts, ["json"]
   end
@@ -24,18 +29,8 @@ defmodule SocialWeb.Router do
     # Landing page - uses the existing :current_user live_session below
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", SocialWeb do
-  #   pipe_through :api
-  # end
-
   # Enable LiveDashboard and Swoosh mailbox preview in development
   if Application.compile_env(:social, :dev_routes) do
-    # If you want to use the LiveDashboard in production, you should put
-    # it behind authentication and allow only admins to access it.
-    # If your application does not have an admins-only section yet,
-    # you can use Plug.BasicAuth to set up some basic authentication
-    # as long as you are also using SSL (which you should anyway).
     import Phoenix.LiveDashboard.Router
 
     scope "/dev" do
@@ -56,11 +51,52 @@ defmodule SocialWeb.Router do
         {SocialWeb.UserAuth, :mount_current_scope},
         {SocialWeb.Hooks.Locale, :set_locale}
       ] do
+      # User settings
       live "/users/settings", UserLive.Settings, :edit
       live "/users/settings/confirm-email/:token", UserLive.Settings, :confirm_email
+
+      # Onboarding flow (NO SIDEBAR)
+      # These pages are for users without organizations
+      live "/onboarding", OrganizationLive.Onboarding, :index
+      live "/onboarding/create-organization", OrganizationLive.OnboardingCreate, :new
+      live "/onboarding/join-organization", OrganizationLive.OnboardingJoin, :new
     end
 
     post "/users/update-password", UserSessionController, :update_password
+  end
+
+  # Routes that require an organization - uses org_required pipeline
+  scope "/organizations", SocialWeb do
+    pipe_through [:browser, :require_authenticated_user, :org_required]
+
+    live_session :require_authenticated_user_org,
+      on_mount: [
+        {SocialWeb.UserAuth, :mount_current_scope},
+        {SocialWeb.Hooks.Locale, :set_locale}
+      ] do
+      # Organizations index - shows all user's orgs with options to add/join (WITH SIDEBAR)
+      live "/", OrganizationLive.Index, :index
+
+      # Standalone pages for creating/joining organizations (NO SIDEBAR)
+      live "/new", OrganizationLive.New, :new
+      live "/join", OrganizationLive.Join, :new
+
+      # Organization Dashboard (WITH SIDEBAR - requires org context)
+      live "/:org_slug", OrganizationLive.Show, :show
+
+      # Donations Section (WITH SIDEBAR and internal tabs)
+      live "/:org_slug/donations", OrganizationLive.Donations.Index, :index
+      live "/:org_slug/donations/new", OrganizationLive.Donations.New, :new
+      live "/:org_slug/donations/settings", OrganizationLive.Donations.Settings, :settings
+
+      # Transparency Section (WITH SIDEBAR and internal tabs)
+      live "/:org_slug/transparency", OrganizationLive.Transparency.Index, :index
+      live "/:org_slug/transparency/settings", OrganizationLive.Transparency.Settings, :settings
+
+      # Organization Settings Section (WITH SIDEBAR and internal tabs)
+      live "/:org_slug/settings", OrganizationLive.Settings.Index, :index
+      live "/:org_slug/settings/members", OrganizationLive.Settings.Members, :members
+    end
   end
 
   scope "/", SocialWeb do
