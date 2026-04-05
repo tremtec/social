@@ -20,7 +20,9 @@ defmodule Social.Organizations do
                organization_id: organization.id,
                user_id: scope.user.id,
                role: :admin,
-               joined_at: DateTime.utc_now()
+               joined_at:
+                 DateTime.utc_now()
+                 |> DateTime.truncate(:second)
              }) do
         {:ok, Repo.preload(organization, :users)}
       end
