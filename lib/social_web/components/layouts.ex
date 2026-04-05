@@ -365,11 +365,11 @@ defmodule SocialWeb.Layouts do
   """
   def theme_toggle(assigns) do
     ~H"""
-    <div class="card relative flex flex-row items-center border-2 border-base-300 bg-base-300 rounded-full">
+    <div class="card relative flex flex-row items-center border-2 border-base-300 bg-base-300 rounded-full w-full">
       <div class="absolute w-1/3 h-full rounded-full border-1 border-base-200 bg-base-100 brightness-200 left-0 [[data-theme=social-light]_&]:left-1/3 [[data-theme=social-dark]_&]:left-2/3 transition-[left]" />
 
       <button
-        class="flex p-2 cursor-pointer w-1/3"
+        class="flex p-2 cursor-pointer w-1/3 justify-center"
         phx-click={JS.dispatch("phx:set-theme")}
         data-phx-theme="system"
         title={gettext("System theme")}
@@ -378,7 +378,7 @@ defmodule SocialWeb.Layouts do
       </button>
 
       <button
-        class="flex p-2 cursor-pointer w-1/3"
+        class="flex p-2 cursor-pointer w-1/3 justify-center"
         phx-click={JS.dispatch("phx:set-theme")}
         data-phx-theme="social-light"
       >
@@ -386,7 +386,7 @@ defmodule SocialWeb.Layouts do
       </button>
 
       <button
-        class="flex p-2 cursor-pointer w-1/3"
+        class="flex p-2 cursor-pointer w-1/3 justify-center"
         phx-click={JS.dispatch("phx:set-theme")}
         data-phx-theme="social-dark"
       >
