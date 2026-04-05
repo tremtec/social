@@ -34,9 +34,30 @@ defmodule SocialWeb.Layouts do
     default: nil,
     doc: "the current [scope](https://hexdocs.pm/phoenix/scopes.html)"
 
+  attr :hide_navbar, :boolean, default: false
+
   slot :inner_block, required: true
 
   def app(assigns) do
+    ~H"""
+    <main>
+      <%!-- show navbar conditionally based on `@hide_navbar` assign, which is used for onboarding flow to hide navbar for unauthenticated users --%>
+      {unless @hide_navbar do
+        public_navbar(%{current_scope: @current_scope})
+      end}
+
+      {render_slot(@inner_block)}
+    </main>
+
+    <.flash_group flash={@flash} />
+    """
+  end
+
+  attr :current_scope, :map,
+    default: nil,
+    doc: "the current [scope](https://hexdocs.pm/phoenix/scopes.html)"
+
+  defp public_navbar(assigns) do
     ~H"""
     <header class="navbar px-4 sm:px-6 lg:px-8">
       <div class="flex-1">
@@ -82,12 +103,6 @@ defmodule SocialWeb.Layouts do
         </ul>
       </div>
     </header>
-
-    <main>
-      {render_slot(@inner_block)}
-    </main>
-
-    <.flash_group flash={@flash} />
     """
   end
 
