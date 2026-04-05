@@ -72,7 +72,7 @@ defmodule SocialWeb.UserLive.RegistrationTest do
 
       {:ok, _login_live, login_html} =
         lv
-        |> element("main a", "Log in")
+        |> element("main a.font-semibold", "Log in")
         |> render_click()
         |> follow_redirect(conn, ~p"/users/log-in")
 

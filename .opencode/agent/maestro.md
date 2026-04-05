@@ -9,6 +9,9 @@ tools:
   edit: false
 permission:
   bash:
+    "ls *": allow
+    "mkdir *": allow
+    "mix *": allow
     "*": allow
 ---
 
